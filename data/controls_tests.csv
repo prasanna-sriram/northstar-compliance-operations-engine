@@ -1,0 +1,22 @@
+test_id,control_id,test_date,tester,result,issues_found
+TEST-001,CTRL-001,2026-01-15,Security Compliance,Pass with Observation,Minor delay in approval for one policy review
+TEST-002,CTRL-001,2025-07-10,Internal Audit,Pass,No material issues noted
+TEST-003,CTRL-002,2025-11-20,Security Compliance,Pass,Risk assessment completed and approved on time
+TEST-004,CTRL-003,2026-02-05,Internal Audit,Pass with Observation,Two assets missing owners at time of review
+TEST-005,CTRL-004,2026-01-30,Security Compliance,Pass,Sample of access changes matched approved requests
+TEST-006,CTRL-005,2025-12-12,Security Compliance,Fail,Several privileged accounts lacked documented justification
+TEST-007,CTRL-005,2026-03-25,Security Compliance,Pass with Observation,Follow-up review showed improvement but one legacy account remained
+TEST-008,CTRL-006,2026-02-18,Security Operations,Pass,MFA enabled for all workforce accounts in scope
+TEST-009,CTRL-007,2026-01-22,Security Operations,Pass with Observation,Alert review for one week was delayed due to staffing
+TEST-010,CTRL-008,2026-03-05,Security Operations,Pass,Critical and high vulnerabilities remediated within defined timelines
+TEST-011,CTRL-009,2025-11-28,Cloud Infrastructure,Fail,Hardening baseline not applied to 3 of 10 sampled servers
+TEST-012,CTRL-009,2026-03-10,Cloud Infrastructure,Pass with Observation,Baseline applied but configuration documentation not updated
+TEST-013,CTRL-010,2026-02-08,Security Compliance,Pass,All sampled changes had approvals and rollback plans
+TEST-014,CTRL-011,2026-01-12,Cloud Infrastructure,Pass,Restore test completed successfully for core database
+TEST-015,CTRL-012,2026-02-20,Security Compliance,Pass with Observation,One corrective action closed without documented effectiveness review
+TEST-016,CTRL-013,2025-12-05,Security Compliance,Pass with Observation,Vendor inventory missing one low-risk vendor
+TEST-017,CTRL-014,2026-03-01,Legal Privacy,Pass,All privacy requests met the expected response timeline
+TEST-018,CTRL-015,2026-01-25,HR,Pass,Annual training completion exceeded target threshold
+TEST-019,CTRL-016,2026-02-15,Internal Audit,Pass,Evidence inventory matched population for sampled controls
+TEST-020,CTRL-017,2025-10-30,Business Continuity,Pass with Observation,BCP exercise revealed communication gaps now logged as actions
+TEST-021,CTRL-018,2026-02-28,Security Compliance,Pass,Customer-facing artifacts current and access-controlled

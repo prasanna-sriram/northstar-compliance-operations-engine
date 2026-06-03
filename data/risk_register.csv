@@ -1,0 +1,11 @@
+risk_id,risk_title,category,likelihood,impact,inherent_score,control_strength,residual_score,treatment_plan,owner,target_date,status
+RISK-001,Unauthorized access due to weak access controls,Access Management,4,5,20,Moderate,12,Strengthen access workflows and increase review frequency,IT Operations,2026-06-30,In Progress
+RISK-002,Data breach from misconfigured cloud services,Cloud Security,3,5,15,Weak,12,Implement hardened baselines and configuration monitoring,Cloud Infrastructure,2026-09-30,Open
+RISK-003,Insufficient logging leading to delayed incident detection,Monitoring,3,4,12,Moderate,8,Expand logging coverage and tune alerting thresholds,Security Operations,2026-05-31,In Progress
+RISK-004,Vendor compromise impacting customer data,Third-Party Risk,3,5,15,Moderate,10,Enhance vendor due diligence and implement stricter contract clauses,Security Compliance,2026-08-31,Open
+RISK-005,Failure to meet PIPEDA access request timelines,Privacy,2,4,8,Moderate,6,Formalize DSAR workflow and implement SLA monitoring,Legal Privacy,2026-04-30,In Progress
+RISK-006,Incomplete backup and recovery for critical systems,Business Continuity,2,5,10,Strong,5,Increase restore testing frequency and document results,Cloud Infrastructure,2026-12-31,Open
+RISK-007,Security awareness fatigue leading to phishing success,Awareness,3,3,9,Moderate,6,Rotate training content and simulate realistic phishing,HR,2026-07-31,In Progress
+RISK-008,Outdated security policies misaligned with current environment,Governance,2,4,8,Weak,6,Update core policies and establish annual review calendar,Security Compliance,2026-05-15,In Progress
+RISK-009,Unresolved audit findings accumulating,Compliance,3,4,12,Moderate,9,Implement structured corrective action tracking and escalation,Security Compliance,2026-10-31,Open
+RISK-010,Key control owners overloaded,Operational,3,3,9,Moderate,7,Rebalance responsibilities and define backup owners,Executive Leadership,2026-09-30,Open

@@ -1,0 +1,11 @@
+asset_id,system_name,data_type,contains_pii,residency,retention_period,lawful_purpose,owner
+DATA-001,Core Banking Platform,Customer financial and transactional data,Yes,Canada,7 years,Provision of banking services,Product Owner - Banking
+DATA-002,Identity Provider,Authentication and access metadata,Yes,Multi-region,2 years,Access control and security monitoring,IT Operations
+DATA-003,HRIS,Employee HR and payroll data,Yes,Canada,7 years,Employment and payroll administration,HR
+DATA-004,Ticketing Platform,Incidents, changes, and service requests,Yes,Canada,3 years,Operational support and audit trail,IT Operations
+DATA-005,Document Repository,Policies, procedures, evidence, and contracts,Yes,Canada,7 years,Compliance and governance,Security Compliance
+DATA-006,Vendor Management Portal,Vendor profiles and due diligence records,Yes,Canada,7 years,Third-party risk management,Security Compliance
+DATA-007,Privacy Tracker,Privacy requests and consent records,Yes,Canada,3 years,Privacy rights management,Legal Privacy
+DATA-008,Security Awareness Platform,Training assignments and completion status,Yes,Canada,3 years,Security awareness and program improvement,HR
+DATA-009,Backup Platform,Replicated critical data for recovery,Yes,Multi-region,Aligned to source system retention,Business continuity,Cloud Infrastructure
+DATA-010,Analytics and BI Workspace,Aggregated and pseudonymized metrics,No,Canada,3 years,Business analytics and reporting,Product Analytics

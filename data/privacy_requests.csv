@@ -1,0 +1,11 @@
+request_id,request_type,received_date,due_date,status,days_open,owner
+PR-001,Access,2026-01-10,2026-02-09,Closed,25,Legal Privacy
+PR-002,Correction,2026-01-25,2026-02-24,Closed,20,Legal Privacy
+PR-003,Access,2026-02-15,2026-03-17,Open,18,Legal Privacy
+PR-004,Deletion,2026-02-05,2026-03-07,In Progress,27,Legal Privacy
+PR-005,Complaint,2026-01-05,2026-02-04,Closed,18,Legal Privacy
+PR-006,Access,2025-11-20,2025-12-20,Closed,35,Legal Privacy
+PR-007,Access,2025-09-01,2025-10-01,Closed,40,Legal Privacy
+PR-008,Inquiry,2026-02-20,2026-03-21,Open,12,Legal Privacy
+PR-009,Correction,2025-12-15,2026-01-14,Closed,22,Legal Privacy
+PR-010,Deletion,2026-01-30,2026-03-01,In Progress,30,Legal Privacy

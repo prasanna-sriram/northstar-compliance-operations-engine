@@ -1,0 +1,19 @@
+control_id,framework,domain,control_name,owner,test_frequency,evidence_required,status
+CTRL-001,ISO 27001 / SOC 2,Information Security Policy Governance,Annual policy review and approval workflow,Security Compliance,Annual,Policy register and approval record,Active
+CTRL-002,ISO 27001 / SOC 2,Risk Assessment and Risk Treatment,Annual enterprise security risk assessment and treatment tracking,Security Compliance,Annual,Risk register and treatment plan,Active
+CTRL-003,ISO 27001 / SOC 2,Asset and Data Inventory Management,Maintained inventory of critical systems and regulated data assets,IT Operations,Quarterly,Asset inventory export and ownership review,Active
+CTRL-004,ISO 27001 / SOC 2,Identity and Access Management,User access provisioning and deprovisioning based on approved workflow,IT Operations,Monthly,Access review report and approval evidence,Active
+CTRL-005,ISO 27001 / SOC 2,Privileged Access Management,Quarterly review of privileged accounts and administrative access,Security Operations,Quarterly,Privileged access review report,Needs Improvement
+CTRL-006,ISO 27001 / SOC 2,Authentication and MFA Enforcement,MFA enforced for workforce and privileged access,IT Operations,Monthly,MFA coverage report,Active
+CTRL-007,ISO 27001 / SOC 2,Logging and Security Monitoring,Centralized logging and alert review for critical systems,Security Operations,Monthly,SIEM alert review evidence,Active
+CTRL-008,ISO 27001 / SOC 2,Vulnerability and Patch Management,Monthly vulnerability scanning and remediation tracking,Security Operations,Monthly,Vulnerability scan summary and remediation log,Active
+CTRL-009,ISO 27001 / SOC 2,Secure Configuration and Hardening,Baseline hardening standards defined and reviewed for critical systems,Cloud Infrastructure,Quarterly,Configuration baseline review,Needs Improvement
+CTRL-010,ISO 27001 / SOC 2,Change Management and Deployment Control,Production changes require approval and documented rollback planning,Engineering,Monthly,Change ticket sample and approval evidence,Active
+CTRL-011,ISO 27001 / SOC 2,Backup Recovery and Resilience,Backup jobs monitored and restore tests performed for critical systems,Cloud Infrastructure,Quarterly,Backup status report and restore test result,Active
+CTRL-012,ISO 27001 / SOC 2,Incident Response and Corrective Action Management,Security incidents and audit findings tracked through corrective action closure,Security Compliance,Monthly,Corrective action tracker and closure evidence,Active
+CTRL-013,ISO 27001 / SOC 2,Third-Party Risk Management and Vendor Due Diligence,Vendors tiered by risk and assessed before onboarding and periodically thereafter,Procurement,Quarterly,Vendor inventory and assessment records,Active
+CTRL-014,ISO 27001 / SOC 2,Privacy Request Handling and Data Retention Governance,Privacy requests and retention obligations tracked through formal workflow,Legal Privacy,Monthly,Privacy request log and retention schedule,Active
+CTRL-015,ISO 27001 / SOC 2,Security Awareness and Phishing Simulation,Employees complete annual awareness training and phishing simulations,HR,Quarterly,Training completion report and phishing metrics,Active
+CTRL-016,ISO 27001 / SOC 2,Audit Evidence Management and Control Testing,Control evidence is collected on schedule and tested for audit readiness,Security Compliance,Monthly,Evidence inventory and control test results,Active
+CTRL-017,ISO 27001 / SOC 2,Business Continuity and Operational Resilience,Business continuity plans are maintained and tested for critical services,Business Continuity,Semi-Annual,BCP test summary and action items,Planned
+CTRL-018,ISO 27001 / SOC 2,Customer Security Review and Trust Center Management,Customer-facing security documentation is current and reviewable for prospects,Security Compliance,Quarterly,Trust center artifact inventory and review log,Active

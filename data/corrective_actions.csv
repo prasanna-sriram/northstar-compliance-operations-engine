@@ -1,0 +1,9 @@
+ca_id,source,related_item,root_cause,owner,opened_date,target_date,status,effectiveness_review
+CA-001,Internal Audit,CTRL-005 Privileged Access Management,Lack of formalized review cadence and owner,Security Operations,2025-12-15,2026-03-31,In Progress,Pending post-remediation review
+CA-002,Internal Audit,CTRL-009 Secure Configuration and Hardening,Legacy servers excluded from baseline rollout,Cloud Infrastructure,2025-11-30,2026-04-30,In Progress,Pending validation scan
+CA-003,External Auditor,RISK-004 Vendor compromise impacting customer data,Vendor due diligence depth inconsistent for medium-tier vendors,Security Compliance,2026-01-10,2026-06-30,Open,Not started
+CA-004,Management Review,CTRL-008 Vulnerability and Patch Management,Delayed patching for non-critical systems,Security Operations,2026-02-20,2026-05-20,Open,Not started
+CA-005,Security Incident,CTRL-007 Logging and Security Monitoring,Alert triage backlog due to staffing constraints,Security Operations,2025-10-05,2026-02-28,Pending Validation,Follow-up monitoring shows improved response times
+CA-006,Internal Audit,CTRL-012 Incident Response and Corrective Action Management,No documented effectiveness reviews for closed actions,Security Compliance,2026-02-25,2026-06-30,Open,Not started
+CA-007,Regulatory Inquiry,CTRL-014 Privacy Request Handling,PIPEDA access request response exceeded 30-day timeline,Legal Privacy,2025-09-12,2026-03-31,In Progress,Planned review after three on-time DSAR cycles
+CA-008,Internal Audit,CTRL-011 Backup Recovery and Resilience,No recent restore test for one secondary database,Cloud Infrastructure,2025-10-18,2026-03-31,In Progress,Pending successful recovery test

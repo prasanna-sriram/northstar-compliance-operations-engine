@@ -1,0 +1,12 @@
+assessment_id,vendor_id,assessment_date,review_type,security_score,open_findings,next_review_due
+VA-001,VEND-001,2025-09-15,Onboarding,82,3,2026-09-15
+VA-002,VEND-001,2026-02-20,Targeted Review,88,1,2027-02-20
+VA-003,VEND-002,2025-11-05,Onboarding,78,2,2026-11-05
+VA-004,VEND-003,2025-10-10,Onboarding,80,1,2026-10-10
+VA-005,VEND-004,2025-08-22,Onboarding,75,4,2026-08-22
+VA-006,VEND-005,2025-07-30,Onboarding,83,2,2026-07-30
+VA-007,VEND-006,2026-01-18,Periodic Review,86,0,2027-01-18
+VA-008,VEND-007,2025-12-12,Onboarding,90,0,2026-12-12
+VA-009,VEND-008,2025-11-25,Onboarding,88,0,2026-11-25
+VA-010,VEND-009,2025-09-05,Onboarding,80,3,2026-09-05
+VA-011,VEND-010,2026-02-02,Onboarding,79,1,2027-02-02

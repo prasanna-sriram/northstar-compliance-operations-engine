@@ -1,0 +1,28 @@
+evidence_id,control_id,evidence_name,source_system,owner,last_collected_date,next_due_date,status
+EVID-001,CTRL-001,Information Security Policy register export,Document Repository,Security Compliance,2026-01-10,2027-01-10,Current
+EVID-002,CTRL-001,Policy approval meeting minutes,Document Repository,Security Compliance,2026-01-12,2027-01-12,Current
+EVID-003,CTRL-002,Annual security risk assessment report,Document Repository,Security Compliance,2025-11-18,2026-11-18,Current
+EVID-004,CTRL-003,Asset inventory export for critical systems,CMDB,IT Operations,2026-02-03,2026-05-03,Current
+EVID-005,CTRL-003,Ownership review sign-off for asset inventory,Ticketing Platform,IT Operations,2025-11-01,2026-02-01,Overdue
+EVID-006,CTRL-004,Monthly access change report,Identity Provider,IT Operations,2026-02-01,2026-03-01,Current
+EVID-007,CTRL-004,Sample joiner/mover/leaver tickets,Ticketing Platform,IT Operations,2025-12-15,2026-03-15,Due Soon
+EVID-008,CTRL-005,Privileged account review workbook,Identity Provider,Security Operations,2025-10-20,2026-01-20,Overdue
+EVID-009,CTRL-006,MFA coverage report for workforce accounts,Identity Provider,IT Operations,2026-02-10,2026-03-10,Current
+EVID-010,CTRL-007,Monthly SIEM alert review log,SIEM,Security Operations,2026-01-29,2026-02-28,Due Soon
+EVID-011,CTRL-008,Monthly vulnerability scan summary,Vulnerability Scanner,Security Operations,2026-02-25,2026-03-25,Current
+EVID-012,CTRL-008,Remediation tracking sheet for high vulnerabilities,Ticketing Platform,Security Operations,2026-02-27,2026-03-27,Current
+EVID-013,CTRL-009,Configuration baseline documentation,Document Repository,Cloud Infrastructure,2025-09-30,2026-03-30,Due Soon
+EVID-014,CTRL-009,Sample configuration compliance report,Cloud Logs,Cloud Infrastructure,2025-10-15,2026-01-15,Overdue
+EVID-015,CTRL-010,Change ticket sample set with approvals,Ticketing Platform,Engineering,2026-02-05,2026-03-05,Current
+EVID-016,CTRL-011,Backup status report for core databases,Backup Platform,Cloud Infrastructure,2026-01-20,2026-04-20,Current
+EVID-017,CTRL-011,Restore test result for core database,Backup Platform,Cloud Infrastructure,2025-11-02,2026-11-02,Current
+EVID-018,CTRL-012,Corrective action tracker export,Document Repository,Security Compliance,2026-02-14,2026-03-14,Current
+EVID-019,CTRL-013,Vendor inventory and tiering report,Vendor Management Portal,Security Compliance,2026-01-31,2026-04-30,Current
+EVID-020,CTRL-013,Completed security assessment for high-risk vendor,Vendor Management Portal,Security Compliance,2025-10-10,2026-10-10,Current
+EVID-021,CTRL-014,Privacy request log export,Privacy Tracker,Legal Privacy,2026-02-18,2026-03-18,Current
+EVID-022,CTRL-014,Data retention schedule,Document Repository,Legal Privacy,2025-08-01,2026-08-01,Current
+EVID-023,CTRL-015,Annual security awareness completion report,HRIS,HR,2025-12-20,2026-12-20,Current
+EVID-024,CTRL-015,Phishing campaign summary,Security Awareness Platform,Security Operations,2026-01-22,2026-04-22,Current
+EVID-025,CTRL-016,Evidence inventory export,Document Repository,Security Compliance,2026-02-10,2026-03-10,Current
+EVID-026,CTRL-017,BCP test report,Business Continuity Platform,Business Continuity,2025-10-28,2026-04-28,Due Soon
+EVID-027,CTRL-018,Trust center artifact inventory,Document Repository,Security Compliance,2026-01-15,2026-04-15,Current

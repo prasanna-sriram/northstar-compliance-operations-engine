@@ -212,7 +212,7 @@ With more time, the next enhancements would include:
 
 Current phase:
 - [x] Day 1: Scenario, assumptions, backlog, and control domains
-- [ ] Day 2: Build compliance datasets
+- [x] Day 2: Build compliance datasets
 - [ ] Day 3: Build SQL monitoring layer
 - [ ] Day 4: Build Python automation
 - [ ] Day 5: Build risk scoring engine

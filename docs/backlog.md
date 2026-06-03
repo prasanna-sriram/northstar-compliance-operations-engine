@@ -12,17 +12,17 @@
 - [x] Create initial README
 
 ## Epic 2: Data Model
-- [ ] Create controls dataset
-- [ ] Create evidence inventory dataset
-- [ ] Create control testing dataset
-- [ ] Create policy register dataset
-- [ ] Create risk register dataset
-- [ ] Create corrective actions dataset
-- [ ] Create vendors dataset
-- [ ] Create vendor assessments dataset
-- [ ] Create privacy requests dataset
-- [ ] Create data inventory dataset
-- [ ] Create framework mapping dataset
+- [x] Create controls dataset
+- [x] Create evidence inventory dataset
+- [x] Create control testing dataset
+- [x] Create policy register dataset
+- [x] Create risk register dataset
+- [x] Create corrective actions dataset
+- [x] Create vendors dataset
+- [x] Create vendor assessments dataset
+- [x] Create privacy requests dataset
+- [x] Create data inventory dataset
+- [x] Create framework mapping dataset
 
 ## Epic 3: SQL Monitoring Layer
 - [ ] Build stale evidence query

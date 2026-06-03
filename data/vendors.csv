@@ -1,0 +1,11 @@
+vendor_id,vendor_name,service_type,data_sensitivity,connectivity,criticality,privileged_access,risk_tier
+VEND-001,AuthCloud Inc.,Identity Provider,High,Direct,High,Yes,High
+VEND-002,TicketPro Systems,IT Service Management,Medium,Limited,High,No,Medium
+VEND-003,SecureScan Corp.,Vulnerability Scanning,Medium,Limited,Medium,No,Medium
+VEND-004,MailMetrics Ltd.,Email and Collaboration,High,Direct,High,Yes,High
+VEND-005,HRWorks Solutions,HRIS and Payroll,High,Limited,High,No,High
+VEND-006,DocStore Services,Document Repository,Medium,Limited,Medium,No,Medium
+VEND-007,TrustPortal Labs,Vendor Management Platform,Low,Limited,Medium,No,Low
+VEND-008,AwarenessCo,Security Awareness Platform,Low,None,Medium,No,Low
+VEND-009,BackupNow Inc.,Backup and DRaaS,High,Direct,High,Yes,High
+VEND-010,Analytics360,Analytics and BI,Medium,Limited,Medium,No,Medium
