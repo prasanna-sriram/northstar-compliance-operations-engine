@@ -26,3 +26,135 @@ EVID-024,CTRL-015,Phishing campaign summary,Security Awareness Platform,Security
 EVID-025,CTRL-016,Evidence inventory export,Document Repository,Security Compliance,2026-02-10,2026-03-10,Current
 EVID-026,CTRL-017,BCP test report,Business Continuity Platform,Business Continuity,2025-10-28,2026-04-28,Due Soon
 EVID-027,CTRL-018,Trust center artifact inventory,Document Repository,Security Compliance,2026-01-15,2026-04-15,Current
+EVID-028,CTRL-001,Policy register - primary evidence export,Cloud Infrastructure Console,Security Compliance,2026-01-20,2027-01-20,Current
+EVID-029,CTRL-001,Policy register - supporting log extract,CMDB,Security Compliance,2026-06-01,2027-06-01,Current
+EVID-030,CTRL-002,Risk register - primary evidence export,Vulnerability Scanner,Security Compliance,2025-10-29,2026-10-29,Current
+EVID-031,CTRL-002,Risk register - supporting log extract,Cloud Infrastructure Console,Security Compliance,2025-09-13,2026-09-13,Current
+EVID-032,CTRL-003,Asset inventory export - primary evidence export,Identity Provider,IT Operations,2026-06-23,2026-09-21,Current
+EVID-033,CTRL-003,Asset inventory export - supporting log extract,Document Repository,IT Operations,2026-05-13,2026-08-11,Current
+EVID-034,CTRL-004,Access review report - primary evidence export,HRIS,IT Operations,2026-07-18,2026-08-17,Current
+EVID-035,CTRL-004,Access review report - supporting log extract,SIEM,IT Operations,2026-06-08,2026-07-08,Overdue
+EVID-036,CTRL-005,Privileged access review report - primary evidence export,HRIS,Security Operations,2026-07-08,2026-10-06,Current
+EVID-037,CTRL-005,Privileged access review report - supporting log extract,Vulnerability Scanner,Security Operations,2026-05-09,2026-08-07,Due Soon
+EVID-038,CTRL-006,MFA coverage report - primary evidence export,Cloud Infrastructure Console,IT Operations,2026-07-16,2026-08-15,Current
+EVID-039,CTRL-006,MFA coverage report - supporting log extract,SIEM,IT Operations,2026-07-19,2026-08-18,Current
+EVID-040,CTRL-007,SIEM alert review evidence - primary evidence export,Document Repository,Security Operations,2026-06-08,2026-07-08,Overdue
+EVID-041,CTRL-007,SIEM alert review evidence - supporting log extract,SIEM,Security Operations,2026-07-06,2026-08-05,Due Soon
+EVID-042,CTRL-008,Vulnerability scan summary - primary evidence export,Cloud Logs,Security Operations,2026-06-19,2026-07-19,Overdue
+EVID-043,CTRL-008,Vulnerability scan summary - supporting log extract,Identity Provider,Security Operations,2026-06-11,2026-07-11,Overdue
+EVID-044,CTRL-009,Configuration baseline review - primary evidence export,Vulnerability Scanner,Cloud Infrastructure,2026-07-02,2026-09-30,Current
+EVID-045,CTRL-009,Configuration baseline review - supporting log extract,Security Awareness Platform,Cloud Infrastructure,2026-05-09,2026-08-07,Due Soon
+EVID-046,CTRL-010,Change ticket sample - primary evidence export,Backup Platform,Engineering,2026-06-26,2026-07-26,Due Soon
+EVID-047,CTRL-010,Change ticket sample - supporting log extract,Vendor Management Portal,Engineering,2026-07-07,2026-08-06,Due Soon
+EVID-048,CTRL-011,Backup status report - primary evidence export,Document Repository,Cloud Infrastructure,2026-05-07,2026-08-05,Due Soon
+EVID-049,CTRL-011,Backup status report - supporting log extract,Vulnerability Scanner,Cloud Infrastructure,2026-04-09,2026-07-08,Overdue
+EVID-050,CTRL-012,Corrective action tracker - primary evidence export,Privacy Tracker,Security Compliance,2026-06-05,2026-07-05,Overdue
+EVID-051,CTRL-012,Corrective action tracker - supporting log extract,Document Repository,Security Compliance,2026-06-10,2026-07-10,Overdue
+EVID-052,CTRL-013,Vendor inventory - primary evidence export,Privacy Tracker,Procurement,2026-04-08,2026-07-07,Overdue
+EVID-053,CTRL-013,Vendor inventory - supporting log extract,Cloud Logs,Procurement,2026-05-20,2026-08-18,Current
+EVID-054,CTRL-014,Privacy request log - primary evidence export,Cloud Infrastructure Console,Legal Privacy,2026-07-10,2026-08-09,Current
+EVID-055,CTRL-014,Privacy request log - supporting log extract,Backup Platform,Legal Privacy,2026-06-14,2026-07-14,Overdue
+EVID-056,CTRL-015,Training completion report - primary evidence export,Vendor Management Portal,HR,2026-06-11,2026-09-09,Current
+EVID-057,CTRL-015,Training completion report - supporting log extract,Backup Platform,HR,2026-04-09,2026-07-08,Overdue
+EVID-058,CTRL-016,Evidence inventory - primary evidence export,SIEM,Security Compliance,2026-06-30,2026-07-30,Due Soon
+EVID-059,CTRL-016,Evidence inventory - supporting log extract,Document Repository,Security Compliance,2026-06-10,2026-07-10,Overdue
+EVID-060,CTRL-017,BCP test summary - primary evidence export,Backup Platform,Business Continuity,2026-06-23,2026-12-22,Current
+EVID-061,CTRL-017,BCP test summary - supporting log extract,Vendor Management Portal,Business Continuity,2025-12-24,2026-06-24,Overdue
+EVID-062,CTRL-018,Trust center artifact inventory - primary evidence export,Vendor Management Portal,Security Compliance,2026-07-07,2026-10-05,Current
+EVID-063,CTRL-018,Trust center artifact inventory - supporting log extract,CMDB,Security Compliance,2026-06-21,2026-09-19,Current
+EVID-064,CTRL-019,Key rotation log - primary evidence export,CMDB,Cloud Infrastructure,2026-06-28,2026-09-26,Current
+EVID-065,CTRL-019,Key rotation log - supporting log extract,SIEM,Cloud Infrastructure,2026-06-19,2026-09-17,Current
+EVID-066,CTRL-020,Network segmentation diagram - primary evidence export,Backup Platform,Cloud Infrastructure,2026-05-11,2026-08-09,Current
+EVID-067,CTRL-020,Network segmentation diagram - supporting log extract,Security Awareness Platform,Cloud Infrastructure,2026-04-03,2026-07-02,Overdue
+EVID-068,CTRL-021,Code review records - primary evidence export,Privacy Tracker,Engineering,2026-06-15,2026-07-15,Overdue
+EVID-069,CTRL-021,Code review records - supporting log extract,Security Awareness Platform,Engineering,2026-06-14,2026-07-14,Overdue
+EVID-070,CTRL-022,MDM compliance report - primary evidence export,Identity Provider,IT Operations,2026-07-12,2026-10-10,Current
+EVID-071,CTRL-022,MDM compliance report - supporting log extract,Vulnerability Scanner,IT Operations,2026-06-26,2026-09-24,Current
+EVID-072,CTRL-023,Data center SOC 2 report - primary evidence export,Vulnerability Scanner,Cloud Infrastructure,2026-03-10,2027-03-10,Current
+EVID-073,CTRL-023,Data center SOC 2 report - supporting log extract,Backup Platform,Cloud Infrastructure,2026-05-31,2027-05-31,Current
+EVID-074,CTRL-024,API gateway configuration export - primary evidence export,Backup Platform,Engineering,2026-06-14,2026-07-14,Overdue
+EVID-075,CTRL-024,API gateway configuration export - supporting log extract,Vulnerability Scanner,Engineering,2026-07-08,2026-08-07,Due Soon
+EVID-076,CTRL-025,Cloud provider attestation review - primary evidence export,Ticketing Platform,Cloud Infrastructure,2026-05-14,2026-11-12,Current
+EVID-077,CTRL-025,Cloud provider attestation review - supporting log extract,Backup Platform,Cloud Infrastructure,2026-02-11,2026-08-12,Current
+EVID-078,CTRL-026,Data classification policy review - primary evidence export,Backup Platform,Security Operations,2026-06-19,2026-09-17,Current
+EVID-079,CTRL-026,Data classification policy review - supporting log extract,CMDB,Security Operations,2026-06-20,2026-09-18,Current
+EVID-080,CTRL-027,Fraud rule tuning log - primary evidence export,Privacy Tracker,Security Operations,2026-06-05,2026-07-05,Overdue
+EVID-081,CTRL-027,Fraud rule tuning log - supporting log extract,Vulnerability Scanner,Security Operations,2026-06-30,2026-07-30,Due Soon
+EVID-082,CTRL-028,AML data handling review - primary evidence export,Vendor Management Portal,Legal Privacy,2026-05-16,2026-08-14,Current
+EVID-083,CTRL-028,AML data handling review - supporting log extract,Document Repository,Legal Privacy,2026-07-10,2026-10-08,Current
+EVID-084,CTRL-029,UBA alert review log - primary evidence export,Vulnerability Scanner,Security Operations,2026-06-13,2026-07-13,Overdue
+EVID-085,CTRL-029,UBA alert review log - supporting log extract,Backup Platform,Security Operations,2026-06-07,2026-07-07,Overdue
+EVID-086,CTRL-030,Capacity utilization report - primary evidence export,Privacy Tracker,Cloud Infrastructure,2026-07-04,2026-10-02,Current
+EVID-087,CTRL-030,Capacity utilization report - supporting log extract,Security Awareness Platform,Cloud Infrastructure,2026-06-11,2026-09-09,Current
+EVID-088,CTRL-031,Remote access log - primary evidence export,HRIS,IT Operations,2026-05-06,2026-08-04,Due Soon
+EVID-089,CTRL-031,Remote access log - supporting log extract,HRIS,IT Operations,2026-05-21,2026-08-19,Current
+EVID-090,CTRL-032,DLP incident report - primary evidence export,SIEM,Security Operations,2026-07-07,2026-08-06,Due Soon
+EVID-091,CTRL-032,DLP incident report - supporting log extract,HRIS,Security Operations,2026-06-26,2026-07-26,Due Soon
+EVID-092,CTRL-033,Penetration test report - primary evidence export,Ticketing Platform,Security Compliance,2026-07-05,2027-07-05,Current
+EVID-093,CTRL-033,Penetration test report - supporting log extract,Identity Provider,Security Compliance,2026-05-27,2027-05-27,Current
+EVID-094,CTRL-034,Secrets vault access report - primary evidence export,Vendor Management Portal,Cloud Infrastructure,2026-05-01,2026-07-30,Due Soon
+EVID-095,CTRL-034,Secrets vault access report - supporting log extract,Security Awareness Platform,Cloud Infrastructure,2026-06-18,2026-09-16,Current
+EVID-096,CTRL-035,Container scan report - primary evidence export,Cloud Logs,Cloud Infrastructure,2026-07-03,2026-08-02,Due Soon
+EVID-097,CTRL-035,Container scan report - supporting log extract,Cloud Infrastructure Console,Cloud Infrastructure,2026-05-30,2026-06-29,Overdue
+EVID-098,CTRL-036,SBOM export - primary evidence export,Security Awareness Platform,Engineering,2026-04-25,2026-07-24,Due Soon
+EVID-099,CTRL-036,SBOM export - supporting log extract,SIEM,Engineering,2026-05-04,2026-08-02,Due Soon
+EVID-100,CTRL-037,Data residency attestation - primary evidence export,SIEM,Legal Privacy,2026-07-18,2027-01-16,Current
+EVID-101,CTRL-037,Data residency attestation - supporting log extract,Document Repository,Legal Privacy,2026-01-30,2026-07-31,Due Soon
+EVID-102,CTRL-038,Mobile app security test report - primary evidence export,SIEM,Engineering,2026-03-31,2026-06-29,Overdue
+EVID-103,CTRL-038,Mobile app security test report - supporting log extract,Privacy Tracker,Engineering,2026-05-25,2026-08-23,Current
+EVID-104,CTRL-039,Email authentication config report - primary evidence export,Cloud Infrastructure Console,IT Operations,2026-07-12,2026-10-10,Current
+EVID-105,CTRL-039,Email authentication config report - supporting log extract,HRIS,IT Operations,2026-04-04,2026-07-03,Overdue
+EVID-106,CTRL-040,DR plan document - primary evidence export,Security Awareness Platform,Business Continuity,2026-04-09,2026-10-08,Current
+EVID-107,CTRL-040,DR plan document - supporting log extract,SIEM,Business Continuity,2026-05-20,2026-11-18,Current
+EVID-108,CTRL-041,Segregation of duties matrix - primary evidence export,CMDB,Security Compliance,2026-06-26,2027-06-26,Current
+EVID-109,CTRL-041,Segregation of duties matrix - supporting log extract,HRIS,Security Compliance,2026-01-06,2027-01-06,Current
+EVID-110,CTRL-042,Bug bounty submission log - primary evidence export,SIEM,Security Compliance,2026-05-16,2026-08-14,Current
+EVID-111,CTRL-042,Bug bounty submission log - supporting log extract,Security Awareness Platform,Security Compliance,2026-04-13,2026-07-12,Overdue
+EVID-112,CTRL-043,Partner API access review - primary evidence export,Document Repository,Security Compliance,2026-06-22,2026-09-20,Current
+EVID-113,CTRL-043,Partner API access review - supporting log extract,Cloud Infrastructure Console,Security Compliance,2026-07-18,2026-10-16,Current
+EVID-114,CTRL-044,Disposal certificate log - primary evidence export,Cloud Infrastructure Console,Legal Privacy,2026-07-14,2026-10-12,Current
+EVID-115,CTRL-044,Disposal certificate log - supporting log extract,Identity Provider,Legal Privacy,2026-07-17,2026-10-15,Current
+EVID-116,CTRL-045,Steering committee meeting minutes - primary evidence export,Backup Platform,Executive Leadership,2026-07-03,2026-10-01,Current
+EVID-117,CTRL-045,Steering committee meeting minutes - supporting log extract,Ticketing Platform,Executive Leadership,2026-04-23,2026-07-22,Overdue
+EVID-118,CTRL-046,Model validation report - primary evidence export,CMDB,Security Compliance,2026-07-17,2027-01-15,Current
+EVID-119,CTRL-046,Model validation report - supporting log extract,HRIS,Security Compliance,2026-05-05,2026-11-03,Current
+EVID-120,CTRL-047,Contractor access review report - primary evidence export,Vendor Management Portal,IT Operations,2026-04-01,2026-06-30,Overdue
+EVID-121,CTRL-047,Contractor access review report - supporting log extract,Identity Provider,IT Operations,2026-04-26,2026-07-25,Due Soon
+EVID-122,CTRL-048,KPI dashboard export - primary evidence export,Ticketing Platform,Security Compliance,2026-06-23,2026-07-23,Overdue
+EVID-123,CTRL-048,KPI dashboard export - supporting log extract,HRIS,Security Compliance,2026-07-15,2026-08-14,Current
+EVID-124,CTRL-049,Step-up authentication trigger log - primary evidence export,Vendor Management Portal,Engineering,2026-07-06,2026-08-05,Due Soon
+EVID-125,CTRL-049,Step-up authentication trigger log - supporting log extract,Privacy Tracker,Engineering,2026-06-29,2026-07-29,Due Soon
+EVID-126,CTRL-050,Backup encryption config - primary evidence export,Cloud Infrastructure Console,Cloud Infrastructure,2026-05-05,2026-08-03,Due Soon
+EVID-127,CTRL-050,Backup encryption config - supporting log extract,HRIS,Cloud Infrastructure,2026-07-18,2026-10-16,Current
+EVID-128,CTRL-051,Regulatory tracking log - primary evidence export,CMDB,Legal Privacy,2026-06-12,2026-09-10,Current
+EVID-129,CTRL-051,Regulatory tracking log - supporting log extract,Vendor Management Portal,Legal Privacy,2026-07-18,2026-10-16,Current
+EVID-130,CTRL-052,Offboarding ticket sample - primary evidence export,Vendor Management Portal,IT Operations,2026-06-21,2026-07-21,Overdue
+EVID-131,CTRL-052,Offboarding ticket sample - supporting log extract,Ticketing Platform,IT Operations,2026-06-22,2026-07-22,Overdue
+EVID-132,CTRL-053,Threat intel feed integration log - primary evidence export,HRIS,Security Operations,2026-07-11,2026-08-10,Current
+EVID-133,CTRL-053,Threat intel feed integration log - supporting log extract,Vulnerability Scanner,Security Operations,2026-06-22,2026-07-22,Overdue
+EVID-134,CTRL-054,DSAR fulfillment system capability review - primary evidence export,SIEM,Legal Privacy,2026-06-30,2026-09-28,Current
+EVID-135,CTRL-054,DSAR fulfillment system capability review - supporting log extract,Security Awareness Platform,Legal Privacy,2026-07-11,2026-10-09,Current
+EVID-136,CTRL-055,Resource tagging compliance report - primary evidence export,Cloud Infrastructure Console,Cloud Infrastructure,2026-04-30,2026-07-29,Due Soon
+EVID-137,CTRL-055,Resource tagging compliance report - supporting log extract,Vendor Management Portal,Cloud Infrastructure,2026-07-03,2026-10-01,Current
+EVID-138,CTRL-056,Breach notification runbook - primary evidence export,Security Awareness Platform,Legal Privacy,2026-02-27,2027-02-27,Current
+EVID-139,CTRL-056,Breach notification runbook - supporting log extract,Vulnerability Scanner,Legal Privacy,2025-10-24,2026-10-24,Current
+EVID-140,CTRL-057,TLS configuration scan report - primary evidence export,Identity Provider,Cloud Infrastructure,2026-05-21,2026-08-19,Current
+EVID-141,CTRL-057,TLS configuration scan report - supporting log extract,Vulnerability Scanner,Cloud Infrastructure,2026-06-25,2026-09-23,Current
+EVID-142,CTRL-058,Board security briefing deck - primary evidence export,Vulnerability Scanner,Security Compliance,2026-02-22,2026-08-23,Current
+EVID-143,CTRL-058,Board security briefing deck - supporting log extract,Cloud Logs,Security Compliance,2026-03-19,2026-09-17,Current
+EVID-144,CTRL-059,Privacy-by-design review checklist sample - primary evidence export,Vendor Management Portal,Legal Privacy,2026-07-18,2026-10-16,Current
+EVID-145,CTRL-059,Privacy-by-design review checklist sample - supporting log extract,Ticketing Platform,Legal Privacy,2026-04-05,2026-07-04,Overdue
+EVID-146,CTRL-060,Tabletop exercise report - primary evidence export,SIEM,Security Compliance,2026-01-31,2026-08-01,Due Soon
+EVID-147,CTRL-060,Tabletop exercise report - supporting log extract,CMDB,Security Compliance,2026-04-01,2026-09-30,Current
+EVID-148,CTRL-061,SaaS security posture scan report - primary evidence export,CMDB,IT Operations,2026-06-03,2026-07-03,Overdue
+EVID-149,CTRL-061,SaaS security posture scan report - supporting log extract,Identity Provider,IT Operations,2026-06-07,2026-07-07,Overdue
+EVID-150,CTRL-062,KMS access control review - primary evidence export,Backup Platform,Cloud Infrastructure,2026-05-18,2026-08-16,Current
+EVID-151,CTRL-062,KMS access control review - supporting log extract,Vendor Management Portal,Cloud Infrastructure,2026-05-07,2026-08-05,Due Soon
+EVID-152,CTRL-063,Vendor offboarding checklist - primary evidence export,Backup Platform,Procurement,2026-05-24,2026-08-22,Current
+EVID-153,CTRL-063,Vendor offboarding checklist - supporting log extract,SIEM,Procurement,2026-04-02,2026-07-01,Overdue
+EVID-154,CTRL-064,Log standard compliance sample review - primary evidence export,Backup Platform,Engineering,2026-07-10,2026-10-08,Current
+EVID-155,CTRL-064,Log standard compliance sample review - supporting log extract,Cloud Infrastructure Console,Engineering,2026-05-14,2026-08-12,Current
+EVID-156,CTRL-065,Session recording coverage report - primary evidence export,CMDB,Security Operations,2026-07-01,2026-07-31,Due Soon
+EVID-157,CTRL-065,Session recording coverage report - supporting log extract,Cloud Infrastructure Console,Security Operations,2026-05-26,2026-06-25,Overdue
+EVID-158,CTRL-066,Anonymization technique validation report - primary evidence export,Backup Platform,Product Analytics,2026-06-07,2026-09-05,Current
+EVID-159,CTRL-066,Anonymization technique validation report - supporting log extract,Document Repository,Product Analytics,2026-05-26,2026-08-24,Current

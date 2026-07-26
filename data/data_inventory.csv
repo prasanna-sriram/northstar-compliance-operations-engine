@@ -2,10 +2,20 @@ asset_id,system_name,data_type,contains_pii,residency,retention_period,lawful_pu
 DATA-001,Core Banking Platform,Customer financial and transactional data,Yes,Canada,7 years,Provision of banking services,Product Owner - Banking
 DATA-002,Identity Provider,Authentication and access metadata,Yes,Multi-region,2 years,Access control and security monitoring,IT Operations
 DATA-003,HRIS,Employee HR and payroll data,Yes,Canada,7 years,Employment and payroll administration,HR
-DATA-004,Ticketing Platform,Incidents, changes, and service requests,Yes,Canada,3 years,Operational support and audit trail,IT Operations
-DATA-005,Document Repository,Policies, procedures, evidence, and contracts,Yes,Canada,7 years,Compliance and governance,Security Compliance
+DATA-004,Ticketing Platform,"Incidents, changes, and service requests",Yes,Canada,3 years,Operational support and audit trail,IT Operations
+DATA-005,Document Repository,"Policies, procedures, evidence, and contracts",Yes,Canada,7 years,Compliance and governance,Security Compliance
 DATA-006,Vendor Management Portal,Vendor profiles and due diligence records,Yes,Canada,7 years,Third-party risk management,Security Compliance
 DATA-007,Privacy Tracker,Privacy requests and consent records,Yes,Canada,3 years,Privacy rights management,Legal Privacy
 DATA-008,Security Awareness Platform,Training assignments and completion status,Yes,Canada,3 years,Security awareness and program improvement,HR
 DATA-009,Backup Platform,Replicated critical data for recovery,Yes,Multi-region,Aligned to source system retention,Business continuity,Cloud Infrastructure
 DATA-010,Analytics and BI Workspace,Aggregated and pseudonymized metrics,No,Canada,3 years,Business analytics and reporting,Product Analytics
+DATA-011,KYC Identity Verification System,Customer identity documents and verification data,Yes,Canada,7 years,Regulatory KYC compliance,Legal Privacy
+DATA-012,AML Screening Platform,Sanctions screening and AML case data,Yes,Canada,7 years,AML regulatory compliance,Legal Privacy
+DATA-013,Card and Payment Processing System,Cardholder and payment transaction data,Yes,Canada,7 years,Payment processing and PCI compliance,Product Owner - Banking
+DATA-014,Fraud Detection Platform,Transaction risk signals and fraud case data,Yes,Canada,3 years,Fraud prevention,Security Operations
+DATA-015,Marketing Consent Management System,Customer marketing consent and preference records,Yes,Canada,3 years,Marketing communications compliance,Marketing
+DATA-016,Mobile App Telemetry Platform,Mobile app usage and device telemetry data,Yes,Multi-region,1 year,Product improvement and diagnostics,Product Analytics
+DATA-017,Contact Center Recording System,Customer call recordings and transcripts,Yes,Canada,2 years,Quality assurance and dispute resolution,Customer Support
+DATA-018,Credit Bureau Data Integration,Credit bureau inquiry and scoring data,Yes,Canada,7 years,Credit decisioning,Product Owner - Banking
+DATA-019,Open Banking API Gateway,Third-party partner data access logs,Yes,Canada,3 years,Open banking partner governance,Security Compliance
+DATA-020,Employee Background Check Records,Pre-employment screening results,Yes,Canada,3 years,Employment eligibility verification,HR

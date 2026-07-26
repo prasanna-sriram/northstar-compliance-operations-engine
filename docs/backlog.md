@@ -25,13 +25,13 @@
 - [x] Create framework mapping dataset
 
 ## Epic 3: SQL Monitoring Layer
-- [ ] Build stale evidence query
-- [ ] Build overdue policy review query
-- [ ] Build failed control test query
-- [ ] Build overdue remediation query
-- [ ] Build high residual risk query
-- [ ] Build high-risk vendor query
-- [ ] Build privacy SLA query
+- [x] Build stale evidence query
+- [x] Build overdue policy review query
+- [x] Build failed control test query
+- [x] Build overdue remediation query
+- [x] Build high residual risk query
+- [x] Build high-risk vendor query
+- [x] Build privacy SLA query
 
 ## Epic 4: Python Automation
 - [ ] Build evidence freshness check script

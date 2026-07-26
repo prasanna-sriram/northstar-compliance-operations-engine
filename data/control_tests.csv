@@ -1,0 +1,148 @@
+test_id,control_id,test_date,tester,result,issues_found
+TEST-001,CTRL-001,2026-01-15,Security Compliance,Pass with Observation,Minor delay in approval for one policy review
+TEST-002,CTRL-001,2025-07-10,Internal Audit,Pass,No material issues noted
+TEST-003,CTRL-002,2025-11-20,Security Compliance,Pass,Risk assessment completed and approved on time
+TEST-004,CTRL-003,2026-02-05,Internal Audit,Pass with Observation,Two assets missing owners at time of review
+TEST-005,CTRL-004,2026-01-30,Security Compliance,Pass,Sample of access changes matched approved requests
+TEST-006,CTRL-005,2025-12-12,Security Compliance,Fail,Several privileged accounts lacked documented justification
+TEST-007,CTRL-005,2026-03-25,Security Compliance,Pass with Observation,Follow-up review showed improvement but one legacy account remained
+TEST-008,CTRL-006,2026-02-18,Security Operations,Pass,MFA enabled for all workforce accounts in scope
+TEST-009,CTRL-007,2026-01-22,Security Operations,Pass with Observation,Alert review for one week was delayed due to staffing
+TEST-010,CTRL-008,2026-03-05,Security Operations,Pass,Critical and high vulnerabilities remediated within defined timelines
+TEST-011,CTRL-009,2025-11-28,Cloud Infrastructure,Fail,Hardening baseline not applied to 3 of 10 sampled servers
+TEST-012,CTRL-009,2026-03-10,Cloud Infrastructure,Pass with Observation,Baseline applied but configuration documentation not updated
+TEST-013,CTRL-010,2026-02-08,Security Compliance,Pass,All sampled changes had approvals and rollback plans
+TEST-014,CTRL-011,2026-01-12,Cloud Infrastructure,Pass,Restore test completed successfully for core database
+TEST-015,CTRL-012,2026-02-20,Security Compliance,Pass with Observation,One corrective action closed without documented effectiveness review
+TEST-016,CTRL-013,2025-12-05,Security Compliance,Pass with Observation,Vendor inventory missing one low-risk vendor
+TEST-017,CTRL-014,2026-03-01,Legal Privacy,Pass,All privacy requests met the expected response timeline
+TEST-018,CTRL-015,2026-01-25,HR,Pass,Annual training completion exceeded target threshold
+TEST-019,CTRL-016,2026-02-15,Internal Audit,Pass,Evidence inventory matched population for sampled controls
+TEST-020,CTRL-017,2025-10-30,Business Continuity,Pass with Observation,BCP exercise revealed communication gaps now logged as actions
+TEST-021,CTRL-018,2026-02-28,Security Compliance,Pass,Customer-facing artifacts current and access-controlled
+TEST-022,CTRL-001,2025-11-28,Engineering,Pass,No material issues noted
+TEST-023,CTRL-002,2025-05-10,Internal Audit,Pass,No material issues noted
+TEST-024,CTRL-003,2026-01-01,Business Continuity,Pass,No material issues noted
+TEST-025,CTRL-003,2025-07-20,Security Compliance,Pass,No material issues noted
+TEST-026,CTRL-004,2025-12-06,Cloud Infrastructure,Pass,No material issues noted
+TEST-027,CTRL-004,2025-11-22,Business Continuity,Pass,No material issues noted
+TEST-028,CTRL-005,2025-11-01,Business Continuity,Pass,No material issues noted
+TEST-029,CTRL-005,2025-08-31,Engineering,Pass,No material issues noted
+TEST-030,CTRL-006,2025-12-31,Security Operations,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-031,CTRL-006,2025-11-28,Engineering,Pass,No material issues noted
+TEST-032,CTRL-007,2025-12-10,IT Operations,Pass,No material issues noted
+TEST-033,CTRL-007,2025-11-09,Internal Audit,Pass,No material issues noted
+TEST-034,CTRL-008,2025-12-17,Engineering,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-035,CTRL-008,2025-12-01,Legal Privacy,Pass,No material issues noted
+TEST-036,CTRL-009,2025-12-14,HR,Pass,No material issues noted
+TEST-037,CTRL-009,2025-07-19,IT Operations,Pass,No material issues noted
+TEST-038,CTRL-010,2025-12-24,Internal Audit,Pass,No material issues noted
+TEST-039,CTRL-010,2025-11-07,Engineering,Pass,No material issues noted
+TEST-040,CTRL-011,2025-10-17,Internal Audit,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-041,CTRL-011,2025-08-26,IT Operations,Pass,No material issues noted
+TEST-042,CTRL-012,2025-12-11,Cloud Infrastructure,Pass,No material issues noted
+TEST-043,CTRL-012,2025-11-27,Internal Audit,Pass,No material issues noted
+TEST-044,CTRL-013,2025-12-23,Business Continuity,Pass,No material issues noted
+TEST-045,CTRL-013,2025-08-09,HR,Pass,No material issues noted
+TEST-046,CTRL-014,2025-12-14,Business Continuity,Fail,Control did not operate as designed; corrective action initiated
+TEST-047,CTRL-014,2025-11-13,Security Compliance,Pass,No material issues noted
+TEST-048,CTRL-015,2025-11-05,IT Operations,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-049,CTRL-015,2025-08-29,Cloud Infrastructure,Pass,No material issues noted
+TEST-050,CTRL-016,2026-01-04,IT Operations,Fail,Control did not operate as designed; corrective action initiated
+TEST-051,CTRL-016,2025-11-12,HR,Pass,No material issues noted
+TEST-052,CTRL-017,2025-12-18,Engineering,Pass,No material issues noted
+TEST-053,CTRL-017,2025-02-10,Business Continuity,Pass,No material issues noted
+TEST-054,CTRL-018,2025-12-14,HR,Pass,No material issues noted
+TEST-055,CTRL-018,2025-09-21,Cloud Infrastructure,Pass,No material issues noted
+TEST-056,CTRL-019,2025-10-24,Internal Audit,Pass,No material issues noted
+TEST-057,CTRL-019,2025-07-15,Security Operations,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-058,CTRL-020,2025-12-26,HR,Pass,No material issues noted
+TEST-059,CTRL-020,2025-09-23,HR,Pass,No material issues noted
+TEST-060,CTRL-021,2025-12-25,Business Continuity,Fail,Control did not operate as designed; corrective action initiated
+TEST-061,CTRL-021,2025-11-14,Security Compliance,Fail,Control did not operate as designed; corrective action initiated
+TEST-062,CTRL-022,2026-01-02,Business Continuity,Pass,No material issues noted
+TEST-063,CTRL-022,2025-08-12,IT Operations,Pass,No material issues noted
+TEST-064,CTRL-023,2025-03-03,Security Operations,Pass,No material issues noted
+TEST-065,CTRL-024,2025-12-20,Engineering,Pass,No material issues noted
+TEST-066,CTRL-024,2025-11-22,Business Continuity,Pass,No material issues noted
+TEST-067,CTRL-025,2025-08-03,Engineering,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-068,CTRL-025,2025-06-18,Cloud Infrastructure,Pass,No material issues noted
+TEST-069,CTRL-026,2025-10-26,Security Operations,Pass,No material issues noted
+TEST-070,CTRL-026,2025-09-16,Business Continuity,Fail,Control did not operate as designed; corrective action initiated
+TEST-071,CTRL-027,2026-01-04,IT Operations,Pass,No material issues noted
+TEST-072,CTRL-027,2025-11-21,IT Operations,Pass,No material issues noted
+TEST-073,CTRL-028,2025-11-15,Cloud Infrastructure,Pass,No material issues noted
+TEST-074,CTRL-028,2025-09-19,Internal Audit,Fail,Control did not operate as designed; corrective action initiated
+TEST-075,CTRL-029,2025-12-29,Internal Audit,Pass,No material issues noted
+TEST-076,CTRL-029,2025-11-30,Security Operations,Pass,No material issues noted
+TEST-077,CTRL-030,2025-10-23,Business Continuity,Pass,No material issues noted
+TEST-078,CTRL-030,2025-07-30,HR,Pass,No material issues noted
+TEST-079,CTRL-031,2025-11-03,Cloud Infrastructure,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-080,CTRL-031,2025-08-17,IT Operations,Pass,No material issues noted
+TEST-081,CTRL-032,2025-12-20,Legal Privacy,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-082,CTRL-032,2025-11-09,Internal Audit,Pass,No material issues noted
+TEST-083,CTRL-033,2025-06-27,Business Continuity,Pass,No material issues noted
+TEST-084,CTRL-034,2025-11-05,Security Compliance,Pass,No material issues noted
+TEST-085,CTRL-034,2025-07-18,Security Compliance,Pass,No material issues noted
+TEST-086,CTRL-035,2025-12-13,Security Compliance,Pass,No material issues noted
+TEST-087,CTRL-035,2025-12-03,Business Continuity,Pass,No material issues noted
+TEST-088,CTRL-036,2025-11-06,Legal Privacy,Pass,No material issues noted
+TEST-089,CTRL-036,2025-08-05,Legal Privacy,Pass,No material issues noted
+TEST-090,CTRL-037,2025-09-07,HR,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-091,CTRL-037,2025-02-23,HR,Pass,No material issues noted
+TEST-092,CTRL-038,2025-11-21,Legal Privacy,Pass,No material issues noted
+TEST-093,CTRL-038,2025-07-15,Internal Audit,Pass,No material issues noted
+TEST-094,CTRL-039,2025-10-14,IT Operations,Pass,No material issues noted
+TEST-095,CTRL-039,2025-07-22,Cloud Infrastructure,Pass,No material issues noted
+TEST-096,CTRL-040,2025-11-21,HR,Pass,No material issues noted
+TEST-097,CTRL-040,2025-02-21,Cloud Infrastructure,Pass,No material issues noted
+TEST-098,CTRL-041,2025-02-12,Business Continuity,Pass,No material issues noted
+TEST-099,CTRL-042,2025-10-19,Business Continuity,Pass,No material issues noted
+TEST-100,CTRL-042,2025-07-10,Cloud Infrastructure,Fail,Control did not operate as designed; corrective action initiated
+TEST-101,CTRL-043,2025-10-28,Legal Privacy,Pass,No material issues noted
+TEST-102,CTRL-043,2025-08-05,Security Compliance,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-103,CTRL-044,2025-10-28,HR,Pass,No material issues noted
+TEST-104,CTRL-044,2025-08-11,Legal Privacy,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-105,CTRL-045,2025-11-12,Business Continuity,Pass,No material issues noted
+TEST-106,CTRL-045,2025-10-01,Security Operations,Pass,No material issues noted
+TEST-107,CTRL-046,2025-08-24,Security Compliance,Pass,No material issues noted
+TEST-108,CTRL-046,2025-06-03,Security Compliance,Pass,No material issues noted
+TEST-109,CTRL-047,2025-11-16,Legal Privacy,Pass,No material issues noted
+TEST-110,CTRL-047,2025-09-11,Business Continuity,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-111,CTRL-048,2025-12-11,Business Continuity,Pass,No material issues noted
+TEST-112,CTRL-048,2025-11-08,Internal Audit,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-113,CTRL-049,2025-12-25,Cloud Infrastructure,Pass,No material issues noted
+TEST-114,CTRL-049,2025-11-18,Cloud Infrastructure,Pass,No material issues noted
+TEST-115,CTRL-050,2025-12-20,Internal Audit,Pass,No material issues noted
+TEST-116,CTRL-050,2025-08-31,Business Continuity,Pass,No material issues noted
+TEST-117,CTRL-051,2025-11-16,Cloud Infrastructure,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-118,CTRL-051,2025-10-02,Cloud Infrastructure,Pass,No material issues noted
+TEST-119,CTRL-052,2025-12-14,Engineering,Pass,No material issues noted
+TEST-120,CTRL-052,2025-11-20,Internal Audit,Pass,No material issues noted
+TEST-121,CTRL-053,2025-12-06,Internal Audit,Pass,No material issues noted
+TEST-122,CTRL-053,2025-11-08,Business Continuity,Pass,No material issues noted
+TEST-123,CTRL-054,2025-11-09,IT Operations,Pass,No material issues noted
+TEST-124,CTRL-054,2025-07-17,IT Operations,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-125,CTRL-055,2025-11-12,Business Continuity,Pass,No material issues noted
+TEST-126,CTRL-055,2025-10-07,Business Continuity,Pass,No material issues noted
+TEST-127,CTRL-056,2025-01-09,Business Continuity,Pass,No material issues noted
+TEST-128,CTRL-057,2025-11-14,Internal Audit,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-129,CTRL-057,2025-07-26,Internal Audit,Pass,No material issues noted
+TEST-130,CTRL-058,2025-11-25,Engineering,Pass,No material issues noted
+TEST-131,CTRL-058,2025-06-09,IT Operations,Pass,No material issues noted
+TEST-132,CTRL-059,2025-11-02,Engineering,Pass,No material issues noted
+TEST-133,CTRL-059,2025-09-11,Security Compliance,Pass,No material issues noted
+TEST-134,CTRL-060,2025-07-30,Engineering,Pass,No material issues noted
+TEST-135,CTRL-060,2025-01-17,Security Operations,Pass,No material issues noted
+TEST-136,CTRL-061,2025-12-26,Security Operations,Fail,Control did not operate as designed; corrective action initiated
+TEST-137,CTRL-061,2025-11-29,HR,Pass,No material issues noted
+TEST-138,CTRL-062,2025-12-17,Internal Audit,Pass,No material issues noted
+TEST-139,CTRL-062,2025-10-05,Business Continuity,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-140,CTRL-063,2025-10-11,Business Continuity,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-141,CTRL-063,2025-07-27,Security Compliance,Pass,No material issues noted
+TEST-142,CTRL-064,2025-11-15,Security Compliance,Pass,No material issues noted
+TEST-143,CTRL-064,2025-08-23,Cloud Infrastructure,Pass,No material issues noted
+TEST-144,CTRL-065,2025-12-27,Business Continuity,Pass,No material issues noted
+TEST-145,CTRL-065,2025-12-04,Security Operations,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-146,CTRL-066,2025-11-06,Security Operations,Pass with Observation,Minor gap identified; tracked for follow-up
+TEST-147,CTRL-066,2025-08-30,IT Operations,Pass,No material issues noted

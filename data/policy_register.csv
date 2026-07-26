@@ -9,3 +9,18 @@ POL-007,Data Protection and Privacy Policy,Legal Privacy,1.2,2025-07-10,2026-07-
 POL-008,Incident Response Policy,Security Compliance,1.0,2024-12-01,2025-12-01,No,Overdue
 POL-009,Business Continuity and Disaster Recovery Policy,Business Continuity,1.0,2024-11-15,2025-11-15,No,Overdue
 POL-010,Security Awareness and Training Policy,HR,1.0,2025-06-30,2026-06-30,Yes,Active
+POL-011,Cryptography and Key Management Policy,Cloud Infrastructure,1.0,2026-01-27,2027-01-27,Yes,Active
+POL-012,Network Security Policy,Cloud Infrastructure,1.0,2025-09-17,2026-09-17,No,Active
+POL-013,Secure Software Development Policy,Engineering,1.1,2026-03-13,2027-03-13,Yes,Active
+POL-014,Mobile Device and BYOD Policy,IT Operations,1.0,2026-05-18,2027-05-18,Yes,Active
+POL-015,Cloud Security and Shared Responsibility Policy,Cloud Infrastructure,1.0,2025-11-04,2026-11-04,No,Active
+POL-016,Data Classification Policy,Security Compliance,1.2,2026-04-30,2027-04-30,Yes,Active
+POL-017,Third-Party Risk Management Policy,Procurement,1.1,2026-03-21,2027-03-21,No,Active
+POL-018,AML and KYC Data Handling Policy,Legal Privacy,1.0,2026-02-21,2027-02-21,Yes,Active
+POL-019,Data Retention and Disposal Policy,Legal Privacy,1.1,2026-02-12,2027-02-12,Yes,Active
+POL-020,Remote Access and Telework Policy,IT Operations,1.0,2026-01-28,2027-01-28,Yes,Active
+POL-021,Secrets and Credential Management Policy,Cloud Infrastructure,1.0,2026-04-18,2027-04-18,No,Active
+POL-022,Physical and Environmental Security Policy,Business Continuity,1.0,2025-11-03,2026-11-03,No,Active
+POL-023,Segregation of Duties Policy,Security Compliance,1.0,2025-12-01,2026-12-01,No,Active
+POL-024,Cross-Border Data Transfer Policy,Legal Privacy,1.0,2025-10-22,2026-10-22,Yes,Active
+POL-025,Vulnerability Disclosure Policy,Security Compliance,1.0,2025-08-02,2026-08-02,No,Active

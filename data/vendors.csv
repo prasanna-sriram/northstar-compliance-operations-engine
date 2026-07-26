@@ -6,6 +6,31 @@ VEND-004,MailMetrics Ltd.,Email and Collaboration,High,Direct,High,Yes,High
 VEND-005,HRWorks Solutions,HRIS and Payroll,High,Limited,High,No,High
 VEND-006,DocStore Services,Document Repository,Medium,Limited,Medium,No,Medium
 VEND-007,TrustPortal Labs,Vendor Management Platform,Low,Limited,Medium,No,Low
-VEND-008,AwarenessCo,Security Awareness Platform,Low,None,Medium,No,Low
+VEND-008,AwarenessCo,Security Awareness Platform,Low,,Medium,No,Low
 VEND-009,BackupNow Inc.,Backup and DRaaS,High,Direct,High,Yes,High
 VEND-010,Analytics360,Analytics and BI,Medium,Limited,Medium,No,Medium
+VEND-011,Core Banking Software Provider,Core Banking Software,High,Direct,High,Yes,High
+VEND-012,Card Network Payment Processor,Payment Processing,High,Direct,High,Yes,High
+VEND-013,KYC Identity Verification Service,Identity Verification,High,Direct,High,No,High
+VEND-014,AML Transaction Monitoring Platform,AML/Fraud Monitoring,High,Direct,High,No,High
+VEND-015,Fraud Detection and Risk Scoring Vendor,Fraud Detection,High,Direct,High,No,High
+VEND-016,SMS and OTP Delivery Provider,Communications,Medium,Direct,Medium,No,Medium
+VEND-017,Cloud Infrastructure Provider,Cloud Hosting (IaaS),High,Direct,High,Yes,High
+VEND-018,Customer Support CRM Platform,CRM / Customer Support,Medium,Limited,Medium,No,Medium
+VEND-019,Marketing Automation and Email Platform,Marketing Technology,Low,Limited,Low,No,Low
+VEND-020,Background Check Screening Vendor,HR Screening,Medium,Limited,Low,No,Medium
+VEND-021,Independent Penetration Testing Firm,Security Testing,Medium,Limited,Medium,Yes,Medium
+VEND-022,Disaster Recovery Site Provider,DR / Business Continuity,High,Direct,High,No,High
+VEND-023,Open Banking API Aggregator Partner,API Aggregation,High,Direct,High,No,High
+VEND-024,Credit Bureau Data Provider,Credit Data,High,Limited,Medium,No,High
+VEND-025,Data Labeling and Analytics Vendor,Data Analytics,Medium,Limited,Low,No,Medium
+VEND-026,Cloud Data Warehouse Provider,Data Warehousing,Medium,Direct,Medium,No,Medium
+VEND-027,E-Signature and Document Workflow Vendor,Document Management,Medium,Limited,Medium,No,Medium
+VEND-028,Payroll Processing Vendor,Payroll,High,Limited,Medium,No,Medium
+VEND-029,Contact Center Telephony Provider,Telephony,Medium,Limited,Medium,No,Medium
+VEND-030,Endpoint Detection and Response Vendor,Security Tooling,Medium,Direct,Medium,Yes,Medium
+VEND-031,Secrets Management Platform Vendor,Security Infrastructure,High,Direct,High,Yes,High
+VEND-032,Cloud Monitoring and Observability Vendor,Monitoring / Observability,Medium,Direct,Medium,No,Medium
+VEND-033,Legal and Compliance Consulting Firm,Professional Services,Low,None,Low,No,Low
+VEND-034,Translation and Localization Vendor,Content Services,Low,None,Low,No,Low
+VEND-035,Mobile App Analytics SDK Provider,Mobile Analytics,Medium,Limited,Medium,No,Medium
