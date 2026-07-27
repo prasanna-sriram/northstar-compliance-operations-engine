@@ -1,0 +1,36 @@
+vendor_id,vendor_name,service_type,data_sensitivity,connectivity,criticality,privileged_access,composite_risk_score,calculated_tier,risk_tier,assessment_date,next_review_due,days_until_reassessment,reassessment_overdue,open_findings,high_priority_flag
+VEND-001,AuthCloud Inc.,Identity Provider,High,Direct,High,Yes,100.0,High,High,2026-02-20,2027-02-20,211,False,1,True
+VEND-004,MailMetrics Ltd.,Email and Collaboration,High,Direct,High,Yes,100.0,High,High,2025-10-09,2026-10-09,77,False,1,True
+VEND-009,BackupNow Inc.,Backup and DRaaS,High,Direct,High,Yes,100.0,High,High,2025-09-05,2026-09-05,43,False,3,True
+VEND-011,Core Banking Software Provider,Core Banking Software,High,Direct,High,Yes,100.0,High,High,2026-01-24,2027-01-24,184,False,3,True
+VEND-012,Card Network Payment Processor,Payment Processing,High,Direct,High,Yes,100.0,High,High,2025-07-14,2026-07-14,-10,True,3,True
+VEND-031,Secrets Management Platform Vendor,Security Infrastructure,High,Direct,High,Yes,100.0,High,High,2025-12-13,2026-12-13,142,False,3,True
+VEND-013,KYC Identity Verification Service,Identity Verification,High,Direct,High,No,80.0,High,High,2025-10-05,2026-10-05,73,False,2,True
+VEND-014,AML Transaction Monitoring Platform,AML/Fraud Monitoring,High,Direct,High,No,80.0,High,High,2025-12-30,2026-12-30,159,False,3,True
+VEND-022,Disaster Recovery Site Provider,DR / Business Continuity,High,Direct,High,No,80.0,High,High,2025-12-24,2026-12-24,153,False,4,True
+VEND-023,Open Banking API Aggregator Partner,API Aggregation,High,Direct,High,No,80.0,High,High,2026-06-21,2027-06-21,332,False,1,True
+VEND-017,Cloud Infrastructure Provider,Cloud Hosting (IaaS),High,Direct,High,Yes,100.0,High,High,2026-05-17,2027-05-17,297,False,0,False
+VEND-015,Fraud Detection and Risk Scoring Vendor,Fraud Detection,High,Direct,High,No,80.0,High,High,2025-07-30,2026-07-30,6,False,0,False
+VEND-005,HRWorks Solutions,HRIS and Payroll,High,Limited,High,No,73.3,High,High,2026-01-28,2027-01-28,188,False,0,False
+VEND-030,Endpoint Detection and Response Vendor,Security Tooling,Medium,Direct,Medium,Yes,70.0,High,Medium,2026-04-04,2027-04-04,254,False,0,False
+VEND-021,Independent Penetration Testing Firm,Security Testing,Medium,Limited,Medium,Yes,63.3,Medium,Medium,2026-02-12,2027-02-12,203,False,0,False
+VEND-002,TicketPro Systems,IT Service Management,Medium,Limited,High,No,58.3,Medium,Medium,2026-03-21,2027-03-21,240,False,0,False
+VEND-024,Credit Bureau Data Provider,Credit Data,High,Limited,Medium,No,58.3,Medium,High,2025-08-13,2026-08-13,20,False,0,False
+VEND-028,Payroll Processing Vendor,Payroll,High,Limited,Medium,No,58.3,Medium,Medium,2026-06-10,2027-06-10,321,False,0,False
+VEND-016,SMS and OTP Delivery Provider,Communications,Medium,Direct,Medium,No,50.0,Medium,Medium,2026-03-22,2027-03-22,241,False,2,False
+VEND-026,Cloud Data Warehouse Provider,Data Warehousing,Medium,Direct,Medium,No,50.0,Medium,Medium,2026-01-08,2027-01-08,168,False,0,False
+VEND-032,Cloud Monitoring and Observability Vendor,Monitoring / Observability,Medium,Direct,Medium,No,50.0,Medium,Medium,2025-12-25,2026-12-25,154,False,4,False
+VEND-003,SecureScan Corp.,Vulnerability Scanning,Medium,Limited,Medium,No,43.3,Medium,Medium,2026-03-25,2027-03-25,244,False,0,False
+VEND-006,DocStore Services,Document Repository,Medium,Limited,Medium,No,43.3,Medium,Medium,2026-01-18,2027-01-18,178,False,0,False
+VEND-010,Analytics360,Analytics and BI,Medium,Limited,Medium,No,43.3,Medium,Medium,2026-05-24,2027-05-24,304,False,0,False
+VEND-018,Customer Support CRM Platform,CRM / Customer Support,Medium,Limited,Medium,No,43.3,Medium,Medium,2025-10-23,2026-10-23,91,False,0,False
+VEND-027,E-Signature and Document Workflow Vendor,Document Management,Medium,Limited,Medium,No,43.3,Medium,Medium,2025-07-27,2026-07-27,3,False,1,False
+VEND-029,Contact Center Telephony Provider,Telephony,Medium,Limited,Medium,No,43.3,Medium,Medium,2026-06-04,2027-06-04,315,False,0,False
+VEND-035,Mobile App Analytics SDK Provider,Mobile Analytics,Medium,Limited,Medium,No,43.3,Medium,Medium,2026-02-09,2027-02-09,200,False,0,False
+VEND-007,TrustPortal Labs,Vendor Management Platform,Low,Limited,Medium,No,35.8,Low,Low,2026-01-12,2027-01-12,172,False,0,False
+VEND-020,Background Check Screening Vendor,HR Screening,Medium,Limited,Low,No,35.8,Low,Medium,2026-05-27,2027-05-27,307,False,4,False
+VEND-025,Data Labeling and Analytics Vendor,Data Analytics,Medium,Limited,Low,No,35.8,Low,Medium,2026-04-09,2027-04-09,259,False,0,False
+VEND-019,Marketing Automation and Email Platform,Marketing Technology,Low,Limited,Low,No,28.3,Low,Low,2025-09-05,2026-09-05,43,False,1,False
+VEND-008,AwarenessCo,Security Awareness Platform,Low,,Medium,No,22.5,Low,Low,2026-02-13,2027-02-13,204,False,4,False
+VEND-033,Legal and Compliance Consulting Firm,Professional Services,Low,,Low,No,15.0,Low,Low,2025-12-10,2026-12-10,139,False,3,False
+VEND-034,Translation and Localization Vendor,Content Services,Low,,Low,No,15.0,Low,Low,2025-08-12,2026-08-12,19,False,2,False

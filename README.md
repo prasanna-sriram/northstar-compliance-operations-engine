@@ -164,27 +164,43 @@ compliance-operations-engine/
 
 ## Key Outputs and Results
 
-As of Day 4, this project moved from static datasets to live automation. Five Python scripts in `scripts/` now read directly from `data/`, apply rule-based compliance logic, and write refreshed CSV reports to `outputs/` on every run:
+This project is built incrementally, with each module producing working scripts, live CSV outputs, and supporting documentation rather than static placeholders. As of Day 6, the following modules are complete and validated against realistic mock data:
 
-- `evidence_freshness_check.py` → `outputs/overdue_evidence_report.csv`
-- `policy_review_tracker.py` → `outputs/policy_review_status.csv`
-- `remediation_tracker.py` → `outputs/remediation_aging_report.csv`
-- `control_effectiveness_summary.py` → `outputs/control_effectiveness_summary.csv`
-- `dsar_sla_monitor.py` → `outputs/dsar_status_report.csv`
+### Compliance Automation (Day 4)
 
-This demonstrates the automation-first mindset the role calls for: evidence collection, control testing, and remediation tracking are engineered as repeatable scripts rather than manual spreadsheet review.
+Five Python scripts in `scripts/` read directly from `data/`, apply rule-based compliance logic, and write refreshed CSV reports to `outputs/` on every run:
 
-This project is designed to produce the following outputs:
-- evidence freshness and missing evidence reports,
-- overdue policy review tracking,
-- residual risk prioritization,
-- corrective action aging reports,
-- vendor tiering and reassessment tracking,
-- privacy request SLA monitoring,
-- Power BI dashboards for executive and audit review,
-- documentation that simulates management review, audit support, and customer-facing security responses.
+| Script | Output | Purpose |
+|--------|--------|---------|
+| `evidence_freshness_check.py` | `overdue_evidence_report.csv` | Flags stale and missing control evidence |
+| `policy_review_tracker.py` | `policy_review_status.csv` | Flags overdue and soon-due policy reviews |
+| `remediation_tracker.py` | `remediation_aging_report.csv` | Buckets open corrective actions by age |
+| `control_effectiveness_summary.py` | `control_effectiveness_summary.csv` | Summarizes pass/fail rates by domain and owner |
+| `dsar_sla_monitor.py` | `dsar_status_report.csv` | Tracks privacy request SLA status |
 
-The intended result is a portfolio project that demonstrates how compliance can be run as an operational engineering problem rather than as a manual documentation exercise.
+### Risk Scoring Engine (Day 5)
+
+`risk_scoring_engine.py` ranks all risks in the register by treatment urgency (residual score, boosted for overdue treatments), flags high-severity overdue risks for executive attention, and writes `outputs/risk_summary.csv`. This output feeds directly into `docs/management-review-summary.md`, connecting raw risk data to a leadership-ready report — a core ISO 27001 management review input.
+
+### Third-Party Risk Module (Day 6)
+
+`vendor_tiering.py` computes a weighted composite risk score (data sensitivity, business criticality, connectivity, privileged access) for all 35 vendors and independently derives a risk tier, rather than relying on static labels. Validated against the full vendor dataset, the engine:
+
+- Scored and tiered all 35 vendors, flagging 14 as High tier.
+- Identified 1 vendor overdue for reassessment and 10 flagged high priority (High tier combined with an overdue reassessment or open findings).
+- Detected 4 cases of tier drift, where the calculated score disagreed with the vendor's originally assigned tier (e.g., a vendor labeled "High" recalculated as "Medium" once connectivity was scored as "Limited" rather than "Direct"). This demonstrates the practical value of a scoring engine over static vendor labels: it catches misclassifications that a manually maintained spreadsheet would miss.
+
+Supporting documentation includes `docs/vendor-risk-methodology.md` (scoring methodology, tier definitions, due diligence depth, reassessment cadence) and a standalone `docs/vendor-due-diligence-questionnaire.md` covering access control, encryption, logging, incident response, privacy, and subcontractor management.
+
+### Planned Modules (Day 7–9)
+
+- Privacy operations: DSAR workflow procedure and privacy impact assessment template
+- Power BI dashboard with executive, control operations, risk, vendor, and privacy views
+- Audit evidence index and customer-facing security review pack
+
+---
+
+The intended result is a portfolio project that demonstrates how compliance can be run as an operational engineering problem — with working scripts, validated outputs, and traceable documentation — rather than as a manual documentation exercise.
 
 [Back to Top](#security-compliance-operations-engine-for-iso-27001-soc-2-type-ii-pipeda-and-third-party-risk)
 
@@ -226,7 +242,7 @@ Current phase:
 - [x] Day 3: Build SQL monitoring layer
 - [x] Day 4: Build Python automation
 - [x] Day 5: Build risk scoring engine
-- [ ] Day 6: Build third-party risk module
+- [x] Day 6: Build third-party risk module
 - [ ] Day 7: Build privacy operations module
 - [ ] Day 8: Build Power BI dashboard
 - [ ] Day 9: Final polish, screenshots, and interview packaging
