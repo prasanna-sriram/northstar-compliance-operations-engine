@@ -1,0 +1,21 @@
+ca_id,source,related_item,owner,opened_date,target_date,days_overdue,aging_bucket,status,effectiveness_review
+CA-005,Security Incident,CTRL-007 Logging and Security Monitoring,Security Operations,2025-10-05,2026-02-28,146,90+,Pending Validation,Follow-up monitoring shows improved response times
+CA-020,External Auditor,CTRL-016 Audit Evidence Management and Control Testing,Security Compliance,2025-10-04,2026-03-03,143,90+,Pending Validation,Follow-up review scheduled
+CA-001,Internal Audit,CTRL-005 Privileged Access Management,Security Operations,2025-12-15,2026-03-31,115,90+,In Progress,Pending post-remediation review
+CA-008,Internal Audit,CTRL-011 Backup Recovery and Resilience,Cloud Infrastructure,2025-10-18,2026-03-31,115,90+,In Progress,Pending successful recovery test
+CA-016,Security Incident,CTRL-018 Customer Security Review and Trust Center Management,Security Compliance,2026-01-03,2026-03-31,115,90+,Pending Validation,Follow-up review scheduled
+CA-007,Regulatory Inquiry,CTRL-014 Privacy Request Handling,Legal Privacy,2025-09-12,2026-03-31,115,90+,In Progress,Planned review after three on-time DSAR cycles
+CA-014,Management Review,CTRL-052 Employee Offboarding and Access Revocation,IT Operations,2025-11-27,2026-04-28,87,61-90,Open,Pending validation
+CA-002,Internal Audit,CTRL-009 Secure Configuration and Hardening,Cloud Infrastructure,2025-11-30,2026-04-30,85,61-90,In Progress,Pending validation scan
+CA-015,External Auditor,CTRL-054 Data Subject Rights Fulfillment Controls,Legal Privacy,2025-11-27,2026-05-01,84,61-90,Pending Validation,Follow-up review scheduled
+CA-018,Management Review,CTRL-049 Customer Authentication and Fraud Controls for Digital Channels,Engineering,2026-02-18,2026-05-01,84,61-90,Open,Pending validation
+CA-019,Management Review,CTRL-032 Data Loss Prevention for Email and Endpoints,Security Operations,2026-01-21,2026-05-07,78,61-90,Open,Pending validation
+CA-009,Regulatory Inquiry,CTRL-028 AML and KYC Data Handling,Legal Privacy,2026-01-29,2026-05-08,77,61-90,Pending Validation,Follow-up review scheduled
+CA-004,Management Review,CTRL-008 Vulnerability and Patch Management,Security Operations,2026-02-20,2026-05-20,65,61-90,Open,Not started
+CA-013,External Auditor,CTRL-019 Cryptography and Key Management,Cloud Infrastructure,2026-02-12,2026-05-22,63,61-90,In Progress,Pending validation
+CA-012,Security Incident,CTRL-059 Data Minimization in Product Design,Legal Privacy,2026-03-15,2026-06-28,26,0-30,Pending Validation,Follow-up review scheduled
+CA-003,External Auditor,RISK-004 Vendor compromise impacting customer data,Security Compliance,2026-01-10,2026-06-30,24,0-30,Open,Not started
+CA-006,Internal Audit,CTRL-012 Incident Response and Corrective Action Management,Security Compliance,2026-02-25,2026-06-30,24,0-30,Open,Not started
+CA-011,Regulatory Inquiry,CTRL-042 Vulnerability Disclosure and Bug Bounty Program,Security Compliance,2026-03-22,2026-07-14,10,0-30,Pending Validation,Follow-up review scheduled
+CA-017,Regulatory Inquiry,CTRL-034 Secrets and Credential Management,Cloud Infrastructure,2026-02-15,2026-07-17,7,0-30,Pending Validation,Follow-up review scheduled
+CA-010,Regulatory Inquiry,CTRL-003 Asset and Data Inventory Management,IT Operations,2026-04-03,2026-08-01,-8,Not Yet Due,Pending Validation,Follow-up review scheduled

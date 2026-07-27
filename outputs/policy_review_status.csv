@@ -1,0 +1,26 @@
+policy_id,policy_name,owner,version,last_review_date,next_review_due,days_until_due,attestation_required,review_status
+POL-009,Business Continuity and Disaster Recovery Policy,Business Continuity,1.0,2024-11-15,2025-11-15,-251,No,Overdue
+POL-008,Incident Response Policy,Security Compliance,1.0,2024-12-01,2025-12-01,-235,No,Overdue
+POL-010,Security Awareness and Training Policy,HR,1.0,2025-06-30,2026-06-30,-24,Yes,Overdue
+POL-007,Data Protection and Privacy Policy,Legal Privacy,1.2,2025-07-10,2026-07-10,-14,Yes,Overdue
+POL-025,Vulnerability Disclosure Policy,Security Compliance,1.0,2025-08-02,2026-08-02,9,No,Due Soon
+POL-006,Vendor Risk Management Policy,Security Compliance,1.1,2025-08-25,2026-08-25,32,No,On Track
+POL-012,Network Security Policy,Cloud Infrastructure,1.0,2025-09-17,2026-09-17,55,No,On Track
+POL-004,Password and Authentication Policy,IT Operations,1.4,2025-09-30,2026-09-30,68,Yes,On Track
+POL-003,Acceptable Use Policy,HR,1.1,2025-10-15,2026-10-15,83,Yes,On Track
+POL-024,Cross-Border Data Transfer Policy,Legal Privacy,1.0,2025-10-22,2026-10-22,90,Yes,On Track
+POL-022,Physical and Environmental Security Policy,Business Continuity,1.0,2025-11-03,2026-11-03,102,No,On Track
+POL-015,Cloud Security and Shared Responsibility Policy,Cloud Infrastructure,1.0,2025-11-04,2026-11-04,103,No,On Track
+POL-005,Change Management Policy,Engineering,1.0,2025-11-20,2026-11-20,119,No,On Track
+POL-023,Segregation of Duties Policy,Security Compliance,1.0,2025-12-01,2026-12-01,130,No,On Track
+POL-002,Access Control Policy,Security Compliance,1.2,2025-12-01,2026-12-01,130,Yes,On Track
+POL-001,Information Security Policy,Security Compliance,1.3,2026-01-10,2027-01-10,170,Yes,On Track
+POL-011,Cryptography and Key Management Policy,Cloud Infrastructure,1.0,2026-01-27,2027-01-27,187,Yes,On Track
+POL-020,Remote Access and Telework Policy,IT Operations,1.0,2026-01-28,2027-01-28,188,Yes,On Track
+POL-019,Data Retention and Disposal Policy,Legal Privacy,1.1,2026-02-12,2027-02-12,203,Yes,On Track
+POL-018,AML and KYC Data Handling Policy,Legal Privacy,1.0,2026-02-21,2027-02-21,212,Yes,On Track
+POL-013,Secure Software Development Policy,Engineering,1.1,2026-03-13,2027-03-13,232,Yes,On Track
+POL-017,Third-Party Risk Management Policy,Procurement,1.1,2026-03-21,2027-03-21,240,No,On Track
+POL-021,Secrets and Credential Management Policy,Cloud Infrastructure,1.0,2026-04-18,2027-04-18,268,No,On Track
+POL-016,Data Classification Policy,Security Compliance,1.2,2026-04-30,2027-04-30,280,Yes,On Track
+POL-014,Mobile Device and BYOD Policy,IT Operations,1.0,2026-05-18,2027-05-18,298,Yes,On Track

@@ -1,0 +1,67 @@
+domain,owner,Fail,Pass,Pass with Observation,total_tests,pass_rate_pct
+Secure Software Development Lifecycle,Engineering,2.0,0.0,0.0,2.0,0.0
+AML and KYC Data Handling,Legal Privacy,1.0,1.0,0.0,2.0,50.0
+Contractor and Third-Party Personnel Access,IT Operations,0.0,1.0,1.0,2.0,50.0
+Cryptography and Key Management,Cloud Infrastructure,0.0,1.0,1.0,2.0,50.0
+Data Classification and Loss Prevention,Security Operations,1.0,1.0,0.0,2.0,50.0
+Data Encryption Key Access Restriction,Cloud Infrastructure,0.0,1.0,1.0,2.0,50.0
+Data Loss Prevention for Email and Endpoints,Security Operations,0.0,1.0,1.0,2.0,50.0
+Cloud Shared Responsibility Management,Cloud Infrastructure,0.0,1.0,1.0,2.0,50.0
+Data Residency and Cross-Border Transfer Controls,Legal Privacy,0.0,1.0,1.0,2.0,50.0
+Data Retention and Secure Disposal,Legal Privacy,0.0,1.0,1.0,2.0,50.0
+Data Subject Rights Fulfillment Controls,Legal Privacy,0.0,1.0,1.0,2.0,50.0
+Encryption in Transit Enforcement,Cloud Infrastructure,0.0,1.0,1.0,2.0,50.0
+Privileged Access Management,Security Operations,1.0,2.0,1.0,4.0,50.0
+Open Banking and API Partner Governance,Security Compliance,0.0,1.0,1.0,2.0,50.0
+Privileged Session Recording,Security Operations,0.0,1.0,1.0,2.0,50.0
+Data Anonymization and Pseudonymization for Analytics,Product Analytics,0.0,1.0,1.0,2.0,50.0
+Secure Remote Access,IT Operations,0.0,1.0,1.0,2.0,50.0
+Regulatory Change Management,Legal Privacy,0.0,1.0,1.0,2.0,50.0
+Secure Configuration and Hardening,Cloud Infrastructure,1.0,2.0,1.0,4.0,50.0
+SaaS Application Security Posture Management,IT Operations,1.0,1.0,0.0,2.0,50.0
+Vendor Offboarding and Data Return/Destruction,Procurement,0.0,1.0,1.0,2.0,50.0
+Security Metrics and KPI Reporting,Security Compliance,0.0,1.0,1.0,2.0,50.0
+Vulnerability Disclosure and Bug Bounty Program,Security Compliance,1.0,1.0,0.0,2.0,50.0
+Incident Response and Corrective Action Management,Security Compliance,0.0,2.0,1.0,3.0,66.7
+Business Continuity and Operational Resilience,Business Continuity,0.0,2.0,1.0,3.0,66.7
+Logging and Security Monitoring,Security Operations,0.0,2.0,1.0,3.0,66.7
+Information Security Policy Governance,Security Compliance,0.0,2.0,1.0,3.0,66.7
+Privacy Request Handling and Data Retention Governance,Legal Privacy,1.0,2.0,0.0,3.0,66.7
+Backup Recovery and Resilience,Cloud Infrastructure,0.0,2.0,1.0,3.0,66.7
+Asset and Data Inventory Management,IT Operations,0.0,2.0,1.0,3.0,66.7
+Authentication and MFA Enforcement,IT Operations,0.0,2.0,1.0,3.0,66.7
+Security Awareness and Phishing Simulation,HR,0.0,2.0,1.0,3.0,66.7
+Third-Party Risk Management and Vendor Due Diligence,Procurement,0.0,2.0,1.0,3.0,66.7
+Audit Evidence Management and Control Testing,Security Compliance,1.0,2.0,0.0,3.0,66.7
+Vulnerability and Patch Management,Security Operations,0.0,2.0,1.0,3.0,66.7
+Endpoint and Mobile Device Management,IT Operations,0.0,2.0,0.0,2.0,100.0
+Data Backup Encryption and Integrity Verification,Cloud Infrastructure,0.0,2.0,0.0,2.0,100.0
+Customer Security Review and Trust Center Management,Security Compliance,0.0,3.0,0.0,3.0,100.0
+Email Authentication and Anti-Phishing Controls,IT Operations,0.0,2.0,0.0,2.0,100.0
+Employee Offboarding and Access Revocation,IT Operations,0.0,2.0,0.0,2.0,100.0
+Cloud Cost and Resource Governance,Cloud Infrastructure,0.0,2.0,0.0,2.0,100.0
+Application Logging Standards Compliance,Engineering,0.0,2.0,0.0,2.0,100.0
+API Security and Rate Limiting,Engineering,0.0,2.0,0.0,2.0,100.0
+Capacity and Availability Management,Cloud Infrastructure,0.0,2.0,0.0,2.0,100.0
+Container and Orchestration Security,Cloud Infrastructure,0.0,2.0,0.0,2.0,100.0
+Change Management and Deployment Control,Engineering,0.0,3.0,0.0,3.0,100.0
+Customer Notification and Breach Communication,Legal Privacy,0.0,1.0,0.0,1.0,100.0
+Disaster Recovery Planning,Business Continuity,0.0,2.0,0.0,2.0,100.0
+Physical and Data Center Security,Cloud Infrastructure,0.0,1.0,0.0,1.0,100.0
+Model Risk Management for Fraud and Credit Models,Security Compliance,0.0,2.0,0.0,2.0,100.0
+Network Security and Segmentation,Cloud Infrastructure,0.0,2.0,0.0,2.0,100.0
+Penetration Testing and Red Team Exercises,Security Compliance,0.0,1.0,0.0,1.0,100.0
+Incident Response Tabletop Exercises,Security Compliance,0.0,2.0,0.0,2.0,100.0
+Identity and Access Management,IT Operations,0.0,3.0,0.0,3.0,100.0
+Insider Threat Monitoring,Security Operations,0.0,2.0,0.0,2.0,100.0
+Mobile Application Security,Engineering,0.0,2.0,0.0,2.0,100.0
+Fraud Monitoring and Transaction Controls,Security Operations,0.0,2.0,0.0,2.0,100.0
+Secrets and Credential Management,Cloud Infrastructure,0.0,2.0,0.0,2.0,100.0
+Risk Assessment and Risk Treatment,Security Compliance,0.0,2.0,0.0,2.0,100.0
+Security Awareness for Executives and Board Reporting,Security Compliance,0.0,2.0,0.0,2.0,100.0
+Segregation of Duties,Security Compliance,0.0,1.0,0.0,1.0,100.0
+Security Governance and Steering Committee,Executive Leadership,0.0,2.0,0.0,2.0,100.0
+Customer Authentication and Fraud Controls for Digital Channels,Engineering,0.0,2.0,0.0,2.0,100.0
+Data Minimization in Product Design,Legal Privacy,0.0,2.0,0.0,2.0,100.0
+Threat Intelligence Integration,Security Operations,0.0,2.0,0.0,2.0,100.0
+Third-Party Software Bill of Materials Management,Engineering,0.0,2.0,0.0,2.0,100.0

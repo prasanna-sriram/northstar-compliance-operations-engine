@@ -164,6 +164,16 @@ compliance-operations-engine/
 
 ## Key Outputs and Results
 
+As of Day 4, this project moved from static datasets to live automation. Five Python scripts in `scripts/` now read directly from `data/`, apply rule-based compliance logic, and write refreshed CSV reports to `outputs/` on every run:
+
+- `evidence_freshness_check.py` → `outputs/overdue_evidence_report.csv`
+- `policy_review_tracker.py` → `outputs/policy_review_status.csv`
+- `remediation_tracker.py` → `outputs/remediation_aging_report.csv`
+- `control_effectiveness_summary.py` → `outputs/control_effectiveness_summary.csv`
+- `dsar_sla_monitor.py` → `outputs/dsar_status_report.csv`
+
+This demonstrates the automation-first mindset the role calls for: evidence collection, control testing, and remediation tracking are engineered as repeatable scripts rather than manual spreadsheet review.
+
 This project is designed to produce the following outputs:
 - evidence freshness and missing evidence reports,
 - overdue policy review tracking,
@@ -214,7 +224,7 @@ Current phase:
 - [x] Day 1: Scenario, assumptions, backlog, and control domains
 - [x] Day 2: Build compliance datasets
 - [x] Day 3: Build SQL monitoring layer
-- [ ] Day 4: Build Python automation
+- [x] Day 4: Build Python automation
 - [ ] Day 5: Build risk scoring engine
 - [ ] Day 6: Build third-party risk module
 - [ ] Day 7: Build privacy operations module

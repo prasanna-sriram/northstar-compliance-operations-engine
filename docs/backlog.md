@@ -34,12 +34,12 @@
 - [x] Build privacy SLA query
 
 ## Epic 4: Python Automation
-- [ ] Build evidence freshness check script
-- [ ] Build policy review tracker script
-- [ ] Build remediation aging script
+- [x] Build evidence freshness check script
+- [x] Build policy review tracker script
+- [x] Build remediation aging script
 - [ ] Build risk scoring engine
 - [ ] Build vendor tiering script
-- [ ] Build DSAR SLA monitor
+- [x] Build DSAR SLA monitor
 
 ## Epic 5: Compliance Documentation
 - [ ] Write audit evidence index
