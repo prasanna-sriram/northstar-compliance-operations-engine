@@ -37,13 +37,13 @@
 - [x] Build evidence freshness check script
 - [x] Build policy review tracker script
 - [x] Build remediation aging script
-- [ ] Build risk scoring engine
+- [x] Build risk scoring engine
 - [ ] Build vendor tiering script
 - [x] Build DSAR SLA monitor
 
 ## Epic 5: Compliance Documentation
 - [ ] Write audit evidence index
-- [ ] Write management review summary
+- [x] Write management review summary
 - [ ] Write vendor risk methodology
 - [ ] Write privacy impact assessment template
 - [ ] Write DSAR operating procedure

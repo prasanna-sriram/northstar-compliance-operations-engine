@@ -225,7 +225,7 @@ Current phase:
 - [x] Day 2: Build compliance datasets
 - [x] Day 3: Build SQL monitoring layer
 - [x] Day 4: Build Python automation
-- [ ] Day 5: Build risk scoring engine
+- [x] Day 5: Build risk scoring engine
 - [ ] Day 6: Build third-party risk module
 - [ ] Day 7: Build privacy operations module
 - [ ] Day 8: Build Power BI dashboard
