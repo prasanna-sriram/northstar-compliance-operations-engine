@@ -45,8 +45,8 @@
 - [ ] Write audit evidence index
 - [x] Write management review summary
 - [x] Write vendor risk methodology
-- [ ] Write privacy impact assessment template
-- [ ] Write DSAR operating procedure
+- [x] Write privacy impact assessment template
+- [x] Write DSAR operating procedure
 - [ ] Write customer security review pack
 
 ## Epic 6: Reporting

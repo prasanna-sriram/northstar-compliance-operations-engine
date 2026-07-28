@@ -30,7 +30,7 @@
 
 This project simulates the day-to-day work of a Senior Security Compliance Engineer operating governance, risk, and compliance processes for a cloud-native Canadian digital bank. The business problem is that audit readiness, evidence collection, policy governance, third-party risk, privacy operations, and management reporting often become fragmented, manual, and difficult to scale in high-growth regulated environments.
 
-To address this, this project designs a lightweight compliance operations engine using Python, SQL, Power BI, and structured documentation. The solution models how a financial services organization can sustain ISO 27001 certification and SOC 2 Type II attestation, support PIPEDA-aligned privacy operations, manage vendor risk, and produce executive- and auditor-ready outputs through repeatable workflows rather than ad hoc effort.
+To address this, this project designs a lightweight compliance operations engine using Python, SQL, Power BI, and structured documentation. The solution models how a financial services organization can sustain ISO 27001 certification and SOC 2 Type II attestation, support PIPEDA-aligned privacy operations, manage vendor risk, and produce executive and auditor-ready outputs through repeatable workflows rather than ad hoc effort.
 
 The expected business impact is improved audit readiness, faster evidence retrieval, better visibility into remediation and residual risk, more structured privacy operations, and more defensible vendor oversight. Future iterations can extend this project into AWS-based evidence collection, customer security review automation, and trust center reporting.
 
@@ -180,7 +180,7 @@ Five Python scripts in `scripts/` read directly from `data/`, apply rule-based c
 
 ### Risk Scoring Engine (Day 5)
 
-`risk_scoring_engine.py` ranks all risks in the register by treatment urgency (residual score, boosted for overdue treatments), flags high-severity overdue risks for executive attention, and writes `outputs/risk_summary.csv`. This output feeds directly into `docs/management-review-summary.md`, connecting raw risk data to a leadership-ready report — a core ISO 27001 management review input.
+`risk_scoring_engine.py` ranks all risks in the register by treatment urgency (residual score, boosted for overdue treatments), flags high-severity overdue risks for executive attention, and writes `outputs/risk_summary.csv`. This output feeds directly into `docs/management-review-summary.md`, connecting raw risk data to a leadership-ready report - a core ISO 27001 management review input.
 
 ### Third-Party Risk Module (Day 6)
 
@@ -192,15 +192,18 @@ Five Python scripts in `scripts/` read directly from `data/`, apply rule-based c
 
 Supporting documentation includes `docs/vendor-risk-methodology.md` (scoring methodology, tier definitions, due diligence depth, reassessment cadence) and a standalone `docs/vendor-due-diligence-questionnaire.md` covering access control, encryption, logging, incident response, privacy, and subcontractor management.
 
-### Planned Modules (Day 7–9)
+### Privacy Operations Module (Day 7)
 
-- Privacy operations: DSAR workflow procedure and privacy impact assessment template
+`data/privacy_requests.csv` was enhanced with identity verification status, data sources searched, retention rule applied, residency, and lawful purpose fields to support a full PIPEDA-aligned DSAR workflow. Supporting documentation includes `docs/dsar-operating-procedure.md` (six-stage intake-to-closure workflow with SLA targets) and `docs/privacy-impact-assessment-template.md` for pre-launch privacy risk review. Re-running `dsar_sla_monitor.py` against the enhanced dataset flagged 4 of 30 requests as past due - consistent with the PIPEDA timeline risk (RISK-005) already identified in the Day 5 risk register.
+
+### Planned Modules (Day 8–9)
+
 - Power BI dashboard with executive, control operations, risk, vendor, and privacy views
 - Audit evidence index and customer-facing security review pack
 
 ---
 
-The intended result is a portfolio project that demonstrates how compliance can be run as an operational engineering problem — with working scripts, validated outputs, and traceable documentation — rather than as a manual documentation exercise.
+The intended result is a portfolio project that demonstrates how compliance can be run as an operational engineering problem - with working scripts, validated outputs, and traceable documentation - rather than as a manual documentation exercise.
 
 [Back to Top](#security-compliance-operations-engine-for-iso-27001-soc-2-type-ii-pipeda-and-third-party-risk)
 
@@ -243,7 +246,7 @@ Current phase:
 - [x] Day 4: Build Python automation
 - [x] Day 5: Build risk scoring engine
 - [x] Day 6: Build third-party risk module
-- [ ] Day 7: Build privacy operations module
+- [x] Day 7: Build privacy operations module
 - [ ] Day 8: Build Power BI dashboard
 - [ ] Day 9: Final polish, screenshots, and interview packaging
 

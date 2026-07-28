@@ -1,31 +1,31 @@
-request_id,request_type,received_date,due_date,status,days_open,owner
-PR-001,Access,2026-01-10,2026-02-09,Closed,25,Legal Privacy
-PR-002,Correction,2026-01-25,2026-02-24,Closed,20,Legal Privacy
-PR-003,Access,2026-02-15,2026-03-17,Open,18,Legal Privacy
-PR-004,Deletion,2026-02-05,2026-03-07,In Progress,27,Legal Privacy
-PR-005,Complaint,2026-01-05,2026-02-04,Closed,18,Legal Privacy
-PR-006,Access,2025-11-20,2025-12-20,Closed,35,Legal Privacy
-PR-007,Access,2025-09-01,2025-10-01,Closed,40,Legal Privacy
-PR-008,Inquiry,2026-02-20,2026-03-21,Open,12,Legal Privacy
-PR-009,Correction,2025-12-15,2026-01-14,Closed,22,Legal Privacy
-PR-010,Deletion,2026-01-30,2026-03-01,In Progress,30,Legal Privacy
-PR-011,Inquiry,2025-12-16,2026-01-15,Closed,16,Legal Privacy
-PR-012,Complaint,2025-12-25,2026-01-24,Closed,35,Legal Privacy
-PR-013,Deletion,2025-09-19,2025-10-19,Closed,33,Legal Privacy
-PR-014,Deletion,2026-03-26,2026-04-25,Closed,29,Legal Privacy
-PR-015,Complaint,2025-10-31,2025-11-30,Closed,23,Legal Privacy
-PR-016,Complaint,2025-09-25,2025-10-25,Closed,27,Legal Privacy
-PR-017,Access,2025-09-04,2025-10-04,Closed,35,Legal Privacy
-PR-018,Inquiry,2025-10-14,2025-11-13,Closed,40,Legal Privacy
-PR-019,Access,2025-12-31,2026-01-30,Closed,22,Legal Privacy
-PR-020,Inquiry,2026-05-10,2026-06-09,Closed,34,Legal Privacy
-PR-021,Inquiry,2026-06-10,2026-07-10,Closed,39,Legal Privacy
-PR-022,Deletion,2026-02-08,2026-03-10,Closed,29,Legal Privacy
-PR-023,Inquiry,2026-05-26,2026-06-25,Closed,24,Legal Privacy
-PR-024,Access,2026-06-11,2026-07-11,Closed,34,Legal Privacy
-PR-025,Deletion,2025-11-12,2025-12-12,Closed,21,Legal Privacy
-PR-026,Correction,2026-07-02,2026-08-01,Open,22,Legal Privacy
-PR-027,Correction,2025-10-25,2025-11-24,Closed,17,Legal Privacy
-PR-028,Inquiry,2025-07-30,2025-08-29,Closed,29,Legal Privacy
-PR-029,Correction,2026-03-26,2026-04-25,Closed,16,Legal Privacy
-PR-030,Complaint,2025-12-23,2026-01-22,Closed,37,Legal Privacy
+request_id,request_type,received_date,due_date,status,days_open,owner,identity_verification_status,data_sources_searched,retention_rule_applied,residency,lawful_purpose
+PR-001,Access,2026-01-10,2026-02-09,Closed,25,Legal Privacy,Verified,"Contact Center Recording System, CRM",7 years (regulatory KYC/AML retention),Canada,Provision of banking services and regulatory compliance
+PR-002,Correction,2026-01-25,2026-02-24,Closed,20,Legal Privacy,Verified,"Core Banking Platform, Identity Provider, CRM",Active account retention (ongoing),Canada,Maintaining accuracy of customer records for service delivery
+PR-003,Access,2026-02-15,2026-03-17,Open,18,Legal Privacy,Verified,"Core Banking Platform, Credit Bureau Data Integration",7 years (regulatory KYC/AML retention),Canada,Provision of banking services and regulatory compliance
+PR-004,Deletion,2026-02-05,2026-03-07,In Progress,27,Legal Privacy,Verified,"Core Banking Platform, Fraud Detection Platform, Identity Provider",Subject to 7-year regulatory hold where applicable,Canada,Evaluated against regulatory retention obligations before erasure
+PR-005,Complaint,2026-01-05,2026-02-04,Closed,18,Legal Privacy,Verified,"HRIS, Payroll Processing Vendor",3 years (dispute resolution retention),Canada,Dispute resolution and service quality management
+PR-006,Access,2025-11-20,2025-12-20,Closed,35,Legal Privacy,Verified,"Core Banking Platform, Identity Provider, CRM",7 years (regulatory KYC/AML retention),Canada,Provision of banking services and regulatory compliance
+PR-007,Access,2025-09-01,2025-10-01,Closed,40,Legal Privacy,Pending,"Core Banking Platform, Fraud Detection Platform, Identity Provider",7 years (regulatory KYC/AML retention),Canada,Provision of banking services and regulatory compliance
+PR-008,Inquiry,2026-02-20,2026-03-21,Open,12,Legal Privacy,Verified,"Core Banking Platform, Identity Provider, CRM",1 year (general inquiry log retention),Canada,Customer service and privacy accountability
+PR-009,Correction,2025-12-15,2026-01-14,Closed,22,Legal Privacy,Verified,"HRIS, Payroll Processing Vendor",Active account retention (ongoing),Canada,Maintaining accuracy of customer records for service delivery
+PR-010,Deletion,2026-01-30,2026-03-01,In Progress,30,Legal Privacy,Verified,"Marketing Platform, CRM",Subject to 7-year regulatory hold where applicable,Canada,Evaluated against regulatory retention obligations before erasure
+PR-011,Inquiry,2025-12-16,2026-01-15,Closed,16,Legal Privacy,Verified,"Contact Center Recording System, CRM",1 year (general inquiry log retention),Canada,Customer service and privacy accountability
+PR-012,Complaint,2025-12-25,2026-01-24,Closed,35,Legal Privacy,Verified,"Core Banking Platform, Credit Bureau Data Integration",3 years (dispute resolution retention),Canada,Dispute resolution and service quality management
+PR-013,Deletion,2025-09-19,2025-10-19,Closed,33,Legal Privacy,Verified,"HRIS, Payroll Processing Vendor",Subject to 7-year regulatory hold where applicable,Canada,Evaluated against regulatory retention obligations before erasure
+PR-014,Deletion,2026-03-26,2026-04-25,Closed,29,Legal Privacy,Verified,"Contact Center Recording System, CRM",Subject to 7-year regulatory hold where applicable,Canada,Evaluated against regulatory retention obligations before erasure
+PR-015,Complaint,2025-10-31,2025-11-30,Closed,23,Legal Privacy,Verified,"Marketing Platform, CRM",3 years (dispute resolution retention),Canada,Dispute resolution and service quality management
+PR-016,Complaint,2025-09-25,2025-10-25,Closed,27,Legal Privacy,Verified,"HRIS, Payroll Processing Vendor",3 years (dispute resolution retention),Canada,Dispute resolution and service quality management
+PR-017,Access,2025-09-04,2025-10-04,Closed,35,Legal Privacy,Verified,"Core Banking Platform, HRIS",7 years (regulatory KYC/AML retention),Canada,Provision of banking services and regulatory compliance
+PR-018,Inquiry,2025-10-14,2025-11-13,Closed,40,Legal Privacy,Verified,"Core Banking Platform, Credit Bureau Data Integration",1 year (general inquiry log retention),Canada,Customer service and privacy accountability
+PR-019,Access,2025-12-31,2026-01-30,Closed,22,Legal Privacy,Verified,"Core Banking Platform, Identity Provider, CRM",7 years (regulatory KYC/AML retention),Canada,Provision of banking services and regulatory compliance
+PR-020,Inquiry,2026-05-10,2026-06-09,Closed,34,Legal Privacy,Verified,"Core Banking Platform, Identity Provider, CRM",1 year (general inquiry log retention),Canada,Customer service and privacy accountability
+PR-021,Inquiry,2026-06-10,2026-07-10,Closed,39,Legal Privacy,Verified,"Core Banking Platform, Credit Bureau Data Integration",1 year (general inquiry log retention),Canada,Customer service and privacy accountability
+PR-022,Deletion,2026-02-08,2026-03-10,Closed,29,Legal Privacy,Verified,"Core Banking Platform, HRIS",Subject to 7-year regulatory hold where applicable,Canada,Evaluated against regulatory retention obligations before erasure
+PR-023,Inquiry,2026-05-26,2026-06-25,Closed,24,Legal Privacy,Verified,"Contact Center Recording System, CRM",1 year (general inquiry log retention),Canada,Customer service and privacy accountability
+PR-024,Access,2026-06-11,2026-07-11,Closed,34,Legal Privacy,Verified,"Marketing Platform, CRM",7 years (regulatory KYC/AML retention),Canada,Provision of banking services and regulatory compliance
+PR-025,Deletion,2025-11-12,2025-12-12,Closed,21,Legal Privacy,Failed,"Core Banking Platform, Identity Provider, CRM",Subject to 7-year regulatory hold where applicable,Canada,Evaluated against regulatory retention obligations before erasure
+PR-026,Correction,2026-07-02,2026-08-01,Open,22,Legal Privacy,Verified,"Contact Center Recording System, CRM",Active account retention (ongoing),Canada,Maintaining accuracy of customer records for service delivery
+PR-027,Correction,2025-10-25,2025-11-24,Closed,17,Legal Privacy,Verified,"Core Banking Platform, HRIS",Active account retention (ongoing),Canada,Maintaining accuracy of customer records for service delivery
+PR-028,Inquiry,2025-07-30,2025-08-29,Closed,29,Legal Privacy,Verified,"Contact Center Recording System, CRM",1 year (general inquiry log retention),Canada,Customer service and privacy accountability
+PR-029,Correction,2026-03-26,2026-04-25,Closed,16,Legal Privacy,Verified,"Core Banking Platform, Identity Provider, CRM",Active account retention (ongoing),Canada,Maintaining accuracy of customer records for service delivery
+PR-030,Complaint,2025-12-23,2026-01-22,Closed,37,Legal Privacy,Verified,"Core Banking Platform, Fraud Detection Platform, Identity Provider",3 years (dispute resolution retention),Canada,Dispute resolution and service quality management
